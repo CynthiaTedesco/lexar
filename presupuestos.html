@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Lexar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="stylesheet/lexar-imports.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="stylesheet/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="stylesheet/bootstrap/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheet/bootstrap/bootstrap-datetimepicker.css">
+		<link rel="stylesheet" href="http://hayageek.github.io/jQuery-Upload-File/4.0.10/uploadfile.css">
+		<link rel="stylesheet" href="stylesheet/lexar.css">
+
+		<script type="text/javaScript" src="js/bootstrap/jquery-1.11.3.min.js"></script>
+		<script type="text/javaScript" src="js/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javaScript" src="js/bootstrap/moment-with-locales.js"></script>
+		<script type="text/javaScript" src="js/bootstrap/bootstrap-datetimepicker.js"></script>
+		
+		<script type="text/javaScript" src="js/lang.js"></script>
+		<script type="text/javaScript" src="js/en.js"></script>
+		<script type="text/javaScript" src="js/es.js"></script>
+		<script type="text/javaScript" src="js/email-sender.js"></script>
+		
+		<script src="http://hayageek.github.io/jQuery-Upload-File/4.0.10/jquery.uploadfile.min.js"></script>
+		<script type="text/javaScript" src="js/file-upload.js"></script>
+		<script type="text/javaScript" src="js/lexar.js"></script>
+	
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->	
+		
+		<script type="text/javascript">
+			$(function() {
+			    $("#menu").load("menu.html", function() {
+			        menuBehavior('#menu-presupuestos');
+			    });
+			});
+
+			$(function(){
+				$(document).ready(function(){
+				   $.post("php/clearUploads.php");
+				});
+			});
+
+			$(function () {
+				$('.dp').datetimepicker({
+			            format: 'DD/MM/YYYY'
+			        });
+			});
+
+		</script>
+	</head>
+	<body>
+	<header id="header"></header>
+	<div id="menu"></div>
+	<div id="content">
+		<div class="section-header">
+			<img src="images/presupuestos/presu-foto.jpg" class="img-responsive" alt="presupuestos-header">
+			<div class="over-header">
+				<span class="tr" key="menu-presupuestos">PRESUPUESTO</span>
+			</div>
+		</div>
+		<form id="presupuestos-form">
+			<div class="section-body presupuestos">
+				<div class="presupuestos-content first">
+					<img src="images/presupuestos/presu-muñequito.jpg" alt="muniequito-presupuesto">
+					<div class="title tr" key="solicita"></div>
+					<span class="tr" key="obligatorios"></span>
+				</div>
+				<div class="presupuestos-content completa col-750-5">
+					<div class="tr hidden-750" key="completa"></div>
+					<img class="hidden-xs hidden-sm" src="images/presupuestos/presu-titulo1.png" alt="completa tus datos">
+					<div class="fields">
+						<ul>
+							<li class="row">
+								<label for="presupuestos-completa-name" class="tr" key="nombre-apellido"></label>
+								<input type="text" id="presupuestos-completa-name" name="presupuestos-completa-name" required><br/>
+							</li>
+							<li class="row">
+								<label for="presupuestos-completa-tel-fijo" class="tr" key="telefono-fijo"></label>
+								<input type="text" id="presupuestos-completa-tel-fijo" name="presupuestos-completa-tel-fijo"><br/>
+							</li>
+							<li class="row">
+								<label for="presupuestos-completa-tel-movil" class="tr" key="telefono-movil"></label>
+								<input type="text" id="presupuestos-completa-tel-movil" name="presupuestos-completa-tel-movil"><br/>
+							</li>
+							<li class="row">
+								<label for="presupuestos-completa-email" class="tr" key="email"></label>
+								<input type="email" id="presupuestos-completa-email" required name="presupuestos-completa-email"><br/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr class="hidden-750"/>
+				<div class="presupuestos-content selecciona col-750-7">
+					<div class="tr hidden-750" key="selecciona"></div>
+					<img class="hidden-xs hidden-sm" src="images/presupuestos/presu-titulo2.png" alt="selecciona tipo de servicio">
+					<div class="selecciona-menu">
+						<div id="menu-traduccion" class="active"><a class="tr" key="seleccion-traduccion"></a></div>
+						<div id="menu-interpretacion"><a class="tr" key="seleccion-interpretacion"></a></div>
+						<div id="menu-correccion"><a class="tr" key="seleccion-correccion"></a></div>
+						<div id="menu-subtitulado"><a class="tr" key="seleccion-subtitulado"></a></div>
+					</div>
+					<div class="selecciona-content">
+						<div id="traduccion-form" class="traduccion-form fields">
+							<ul>
+								<li class="row">
+									<label for="tr_idioma_origen" class="tr" key="idioma-origen"></label>
+									<input type="text" id="tr_idioma_origen" name="tr_idioma_origen" class="required-if-visible" required><br/>
+								</li>
+								<li class="row">
+									<label for="tr_idioma_llegada" class="tr" key="idioma-llegada"></label>
+									<input type="text" id="tr_idioma_llegada" class="required-if-visible" required name="tr_idioma_llegada"><br/>
+								</li>
+								<li class="row">
+									<label for="tr_cantidad_palabras" class="tr" key="cantidad-palabras"></label>
+									<input type="number" step="1" min="0" id="tr_cantidad_palabras" name="tr_cantidad_palabras"><br/>
+								</li>
+								<li class="row">
+									<label for="tr_plazo_entrega" class="tr" key="plazo-entrega"></label>
+									<div class='input-group date dp'>
+					                    <input type='text' class="form-control" id="tr_plazo_entrega" name="tr_plazo_entrega"/>
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								</li>
+								<li class="row">
+									<label for="tr_formato_entrega" class="tr" key="formato-entrega"></label>
+									<input type="text" id="tr_formato_entrega" name="tr_formato_entrega"><br/>
+								</li>
+								<li class="row es_publica">
+									<label for="tr_es_publica" class="control-label tr" key="es-publica"></label>
+									<select class="form-control required-if-visible" value="0" id="tr_es_publica" required name="tr_es_publica">
+								      <option class="tr" key="si" value="0">Si</option>
+								      <option class="tr" key="no" value="1">No</option>
+								    </select>							     
+								</li>
+								<li class="row upload">
+									<label for="fileuploader" class="tr" key="subida"></label>
+									<div id="fileuploader" class="fileuploader">Upload</div>
+								</li>
+								<li class="row comentarios">
+									<div>
+										<label for="tr_comentarios" class="tr" key="comentarios"></label>
+										<textarea id="tr_comentarios" name="tr_comentarios" rows="3"></textarea>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="interpretacion-form" class="interpretacion-form hidden fields">
+							<ul>
+								<li class="row">
+									<label for="in_idioma_origen" class="tr" key="idioma-origen"></label>
+									<input type="text" id="in_idioma_origen" name="in_idioma_origen" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="in_idioma_llegada" class="tr" key="idioma-llegada"></label>
+									<input type="text" id="in_idioma_llegada" name="in_idioma_llegada" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="in_fecha_interpretacion" class="tr" key="fecha-interpretacion"></label>
+									<div class='input-group date dp'>
+					                    <input type='text' class="form-control required-if-visible" id="in_fecha_interpretacion" name="in_fecha_interpretacion"/>
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								</li>
+								<li class="row">
+									<label for="in_tipo" class="control-label tr" key="tipo-interpretacion"></label>
+									<select class="form-control required-if-visible" id="in_tipo" name="in_tipo" value="0">
+								      <option class="tr" key="tipo-interpretacion-1" value="0">Consecutiva</option>
+								      <option class="tr" key="tipo-interpretacion-2" value="1">Simultánea</option>
+								      <option class="tr" key="tipo-interpretacion-3" value="2">Acompañamiento</option>
+								    </select>
+								</li>
+								<li class="row">
+									<label for="in_horas_interpretacion" class="tr" key="horas-interpretacion"></label>
+									<input type="number" step="1" min="0" id="in_horas_interpretacion" name="in_horas_interpretacion" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="in_lugar_interpretacion" class="tr" key="lugar-interpretacion"></label>
+									<input type="text" id="in_lugar_interpretacion" name="in_lugar_interpretacion" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="in_etiqueta" class="tr" key="etiqueta-interpretacion"></label>
+									<input type="text" id="in_etiqueta" name="in_etiqueta"><br/>
+								</li>
+								<li class="row comentarios">
+									<label for="in_comentarios" class="tr" key="comentarios"></label>
+									<textarea id="in_comentarios" name="in_comentarios" rows="3"></textarea>
+								</li>
+							</ul>
+						</div>
+						<div id="correccion-form" class="correccion-form fields hidden">
+							<ul>
+								<li class="row">
+									<label for="co_idioma" class="tr" key="idioma"></label>
+									<input type="text" id="co_idioma" name="co_idioma" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="co_tipo" class="control-label tr" key="tipo-correccion"></label>
+									<select class="form-control required-if-visible" id="co_tipo" name="co_tipo">
+								      <option class="tr" key="tipo-correccion-1" value="0">De estilo</option>
+								      <option class="tr" key="tipo-correccion-2" value="1">Ortográfica, gramatical y sintáctica</option>
+								      <option class="tr" key="tipo-correccion-3" value="2">Ortotipográfica</option>
+								      <option class="tr" key="tipo-correccion-4" value="3">De traducciones</option>
+								    </select>
+								</li>
+								<li class="row">
+									<label for="co_cantidad" class="tr" key="cantidad-matrices"></label>
+									<input type="number" step="1" min="0" id="co_cantidad" name="co_cantidad"><br/>
+								</li>
+								<li class="row">
+									<label for="co_formato" class="tr" key="formato-documento"></label>
+									<input type="text" id="co_formato" name="co_formato" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="co_plazo_entrega" class="tr" key="plazo-entrega-obligatorio"></label>
+									<div class='input-group date dp'>
+					                    <input type='text' class="form-control required-if-visible" id="co_plazo_entrega" name="co_plazo_entrega"/>
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								</li>
+								<li class="row upload">
+									<label for="co_subida" class="tr" key="subir-archivo-correccion"></label>
+									<div id="fileuploader1" class="fileuploader">Upload</div>
+								</li>
+								</li>
+								<li class="row comentarios">
+									<label for="co_comentarios" class="tr" key="comentarios"></label>
+									<textarea id="co_comentarios" name="co_comentarios" rows="3"></textarea>
+								</li>
+							</ul>
+						</div>
+						<div id="subtitulado-form" class="subtitulado-form fields hidden">
+							<ul>
+								<li class="row">
+									<label for="su_idioma" class="tr" key="idioma"></label>
+									<input type="text" id="su_idioma" name="su_idioma" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="su_doblaje_o_subt" class="control-label tr" key="doblaje-subtitulado"></label>
+									<select class="form-control required-if-visible" id="su_doblaje_o_subt" name="su_doblaje_o_subt">
+								      <option class="tr" key="doblaje-subtitulado-1" value="0">Doblaje</option>
+								      <option class="tr" key="doblaje-subtitulado-2" value="1">Subtitulado</option>
+								    </select>
+								</li>
+								<li class="row">
+									<label for="su_duracion" class="tr" key="duracion-video"></label>
+									<input type="number" min="0" class="required-if-visible" id="su_duracion" name="su_duracion"><br/>
+								</li>
+								<li class="row">
+									<label for="su_cantidad" class="tr" key="guion-subtitulado"></label>
+									<input type="number" step="1" min="0" id="su_cantidad" name="su_cantidad"><br/>
+								</li>
+								<li class="row">
+									<label for="su_formato" class="tr" key="subtitulado-formato-entrega"></label>
+									<input type="text" id="su_formato" name="su_formato" class="required-if-visible"><br/>
+								</li>
+								<li class="row">
+									<label for="su_sincronizacion" class="control-label tr" key="sincronizacion"></label>
+									<select class="form-control" value="0" id="su_sincronizacion" name="su_sincronizacion">
+									  <option value="0"></option>
+								      <option class="tr" key="si" value="1">Si</option>
+								      <option class="tr" key="no" value="2">No</option>
+								    </select>							     
+								</li>
+								<li class="row">
+									<label for="su_temporizacion" class="control-label tr" key="temporizacion"></label>
+									<select class="form-control" value="0" id="su_temporizacion" name="su_temporizacion">
+									<option value="0"></option>
+								      <option class="tr" key="si" value="1">Si</option>
+								      <option class="tr" key="no" value="2">No</option>
+								    </select>							     
+								</li>
+								<li class="row">
+									<label for="su_plazo_entrega" class="tr" key="plazo-entrega-obligatorio"></label>
+									<div class='input-group date dp'>
+					                    <input type='text' class="form-control required-if-visible" id="su_plazo_entrega" name="su_plazo_entrega"/>
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div>
+								</li>
+								<li class="row upload">
+									<label for="su_subida" class="tr" key="subir-video"></label>
+									<div id="fileuploader2" class="fileuploader">Upload</div>
+								</li>
+								<li class="row comentarios">
+									<label for="su_comentarios" class="tr" key="comentarios"></label>
+									<textarea id="su_comentarios" name="su_comentarios" rows="3"></textarea>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr/>
+				<div class="presupuestos-content buttons-div">
+					<button type="button" class="btn cancel-button tr" key="cancelar" onclick="clearQuotesFields()">CANCELAR</button>
+					<button type="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i>" class="btn btn-default presupuestos send-button tr" key="enviar">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+	</div>
+<footer id="footer"></footer>
+</body>
+</html>

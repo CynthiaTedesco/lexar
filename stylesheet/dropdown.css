@@ -1,0 +1,220 @@
+/* GLOBALS */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: transparent; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+.language-dropdown.closed .language.dropdown{
+  cursor: default;
+}
+.language-dropdown {
+  cursor: pointer;
+}
+.language-dropdown {
+    /* Size and position */
+    position: absolute;
+    right: 6%;
+    width: 120px;
+    margin: 3% auto;
+
+    /* Styles */
+    background: #636466;
+    border-radius: 20px;
+    
+    outline: none;
+
+    /* Font settings */
+    font-weight: bold;
+    font-size: 11px;
+    padding: 4%;
+    color: #bed654;
+}
+
+/* Botoncito */
+.language-dropdown:after {
+    content: url('../images/header/header-idioma-flecha.png');
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    /*content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #a3b14c transparent;*/
+}
+
+.language-dropdown .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 95%;
+    left: 0;
+    right: 0;
+
+    /* Styles */
+    background: #636466;
+    border-radius: 0 0 20px 20px;
+    width: inherit;
+    
+    font-weight: normal;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    list-style: none;
+    padding: 6%;
+}
+
+.language-dropdown .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #bed654;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.language-dropdown .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.language-dropdown .dropdown li {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.language-dropdown .dropdown li a {
+    border: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.language-dropdown span{
+    padding-left: 10%;
+}
+
+.dropdown li a {
+    margin: 5% 5% 10% 15%;
+}
+
+.opened {
+    border-radius: 20px 20px 0 0;
+}
+
+.closed {
+    border-radius: 20px;
+}
+
+.closed .dropdown {
+    opacity: 0;
+}
+
+.opened .dropdown {
+    opacity: 1;
+}
+
+.navbar-nav>li {
+    clear: both;
+    width: 100%;
+}
+
+.dropdown-menu{
+    min-width: inherit;
+    top:90%;
+    padding: 0;
+    margin: 0;
+    background: #636466;
+    -webkit-background-clip: inherit;
+    border-radius: 0 0 20px 20px;
+    box-shadow: none;
+    font-size: 12px;
+    width: inherit;
+}
+
+.dropdown{
+  width: 150px;
+}
+
+.dropdown-toggle{
+  -webkit-box-shadow: inherit;
+  border: 0;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 22px;
+  border: none;
+  border-radius: 20px;
+  width: inherit;
+  background: #636466;
+  color: #bed654;
+}
+
+.dropdown li a{
+  margin: 0;
+  padding: 5% 50% 7% 15%
+  font-weight: bold;
+  color: #bed654;
+}
+
+@media screen and (min-width:750px){
+/* HEADER 750 */
+.language-dropdown{
+  top: 25px;
+  right: 5%;
+  width: 120px;
+  
+}
+.language-dropdown:after{
+  top: 35%;
+}
+.language-dropdown .dropdown{
+  padding-left: 7px;
+}
+/* END HEADER 750 */
+}
+
+@media screen and (min-width:970px){
+
+/* HEADER 970 */
+.language-dropdown{
+  margin-top:5%;
+  padding: 3%;
+}
+.language-dropdown:after{
+  top:30%;
+}
+/* END HEADER 970 */
+}
+
+@media screen and (min-width:1170px){
+
+/* HEADER 1170 */
+
+.language-dropdown {
+  margin-top: 6%;
+  padding: 1.5%;
+}
+
+/* END HEADER 1170 */
+}

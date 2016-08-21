@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Lexar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="stylesheet/bootstrap/bootstrap-theme.min.css">
+
+		
+		<link rel="stylesheet" href="stylesheet/lexar.css">
+		<script type="text/javaScript" src="js/bootstrap/jquery-1.11.3.min.js"></script>
+		<script type="text/javaScript" src="js/bootstrap/bootstrap.min.js"></script>
+		
+		<script type="text/javaScript" src="js/lang.js"></script>
+		<script type="text/javaScript" src="js/en.js"></script>
+		<script type="text/javaScript" src="js/es.js"></script>
+		<script type="text/javaScript" src="js/email-sender.js"></script>
+		<script type="text/javaScript" src="js/lexar.js"></script>
+
+		
+		<!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheet/bootstrap/bootstrap.min.css">-->
+		<link rel="stylesheet" type="text/css" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" type="text/css" media="screen" href="stylesheet/bootstrap/bootstrap-datetimepicker.css">-->
+        <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->	
+		<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+		<script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+			    $("#menu").load("menu.html", function() {
+			        menuBehavior('#menu-presupuestos');
+			    });
+			});
+		</script>
+	</head>
+	<body>
+	<header id="header"></header>
+	<div id="menu"></div>
+	<div id="content">
+		<div class="section-header">
+			<img src="images/presupuestos/presu-foto.jpg" class="img-responsive" alt="presupuestos-header">
+			<div class="over-header">
+				<span class="tr" key="menu-presupuestos">PRESUPUESTO</span>
+			</div>
+		</div>
+		<form id="presupuestos-form">
+			<div class="section-body presupuestos">
+				<div class="presupuestos-content first">
+					<img src="images/presupuestos/presu-muñequito.jpg" alt="muniequito-presupuesto">
+					<div class="title tr" key="solicita"></div>
+					<span class="tr" key="obligatorios"></span>
+				</div>
+				<div class="presupuestos-content completa col-750-5">
+					<div class="tr" key="completa"></div>
+					<div class="fields">
+						<ul>
+							<li>
+								<label for="presupuestos-completa-name" class="tr" key="nombre-apellido"></label>
+								<input type="text" id="presupuestos-completa-name" required name="presupuestos-completa-name"><br/>
+							</li>
+							<li>
+								<label for="presupuestos-completa-tel-fijo" class="tr" key="telefono-fijo"></label>
+								<input type="text" id="presupuestos-completa-tel-fijo" name="presupuestos-completa-tel-fijo"><br/>
+							</li>
+							<li>
+								<label for="presupuestos-completa-tel-movil" class="tr" key="telefono-movil"></label>
+								<input type="text" id="presupuestos-completa-tel-movil" name="presupuestos-completa-tel-movil"><br/>
+							</li>
+							<li>
+								<label for="presupuestos-completa-email" class="tr" key="email"></label>
+								<input type="email" id="presupuestos-completa-email" required name="presupuestos-completa-email"><br/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr/>
+				<div class="presupuestos-content selecciona col-750-7">
+					<div class="tr" key="selecciona"></div>
+					<div class="selecciona-menu">
+						<div id="menu-traduccion" class="active"><a class="tr" key="seleccion-traduccion"></a></div>
+						<div id="menu-interpretacion"><a class="tr" key="seleccion-interpretacion"></a></div>
+						<div id="menu-correccion"><a class="tr" key="seleccion-correccion"></a></div>
+						<div id="menu-subtitulado"><a class="tr" key="seleccion-subtitulado"></a></div>
+					</div>
+					<div class="selecciona-content">
+						<div class="traduccion-form fields">
+						<div class="container">
+							</div>
+							<ul>
+								<li>
+									<label for="tr_idioma_origen" class="tr" key="idioma-origen"></label>
+									<input type="text" id="tr_idioma_origen" required><br/>
+								</li>
+								<li>
+									<label for="tr_idioma_llegada" class="tr" key="idioma-llegada"></label>
+									<input type="text" id="tr_idioma_llegada" required name="tr_idioma_llegada"><br/>
+								</li>
+								<li>
+									<label for="tr_cantidad_palabras" class="tr" key="cantidad-palabras"></label>
+									<input type="number" step="1" min="0" id="tr_cantidad_palabras" name="tr_cantidad_palabras"><br/>
+								</li>
+								<li>
+									<label for="tr_plazo_entrega" class="tr" key="plazo-entrega"></label>
+									<div class='input-group date' id='datetimepicker'>
+					                    <input type='text' class="form-control" id="tr_plazo_entrega" name="tr_plazo_entrega"/>
+					                    <span class="input-group-addon">
+					                        <span class="glyphicon glyphicon-calendar"></span>
+					                    </span>
+					                </div><br/>
+								</li>
+								<li>
+									<label for="tr_formato_entrega" class="tr" key="formato-entrega"></label>
+									<input type="text" id="tr_formato_entrega" name="tr_formato_entrega"><br/>
+								</li>
+								<li>
+									<label for="tr_es_publica" class="control-label tr" key="es-publica"></label>
+									<select class="form-control" id="tr_es_publica" required name="tr_es_publica">
+								      <option class="tr" key="si" value="0">Si</option>
+								      <option class="tr" key="no" value="1">No</option>
+								    </select>							     
+								</li>
+								<li>
+									<label for="tr_subida" class="tr" key="subida"></label>
+									<label class="btn btn-default btn-file tr" key="buscar-archivo">
+									    <input type="file" style="display: none;">
+									</label>
+								</li>
+								<li>
+									<label for="tr_comentarios" class="tr" key="comentarios"></label>
+									<input type="text" id="tr_comentarios" name="tr_comentarios"><br/>
+								</li>
+							</ul>
+						</div>
+						<div class="interpretacion-form hidden">
+						</div>
+						<div class="correccion-form hidden">corr</div>
+						<div class="subtitulado-form hidden">sub</div>
+					</div>
+				</div>
+				<hr/>
+				<div class="presupuestos-content buttons-div">
+					<button type="button" class="btn cancel-button tr" key="cancelar">CANCELAR</button>
+					<button type="button" onclick="sendMail()" class="btn btn-default send-button tr" key="enviar">ENVIAR</button>
+				</div>
+			</div>
+		</form>
+	</div>
+<footer id="footer"></footer>
+</body>
+</html>

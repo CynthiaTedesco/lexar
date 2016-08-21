@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Lexar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="stylesheet/lexar-imports.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="stylesheet/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="stylesheet/bootstrap/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://hayageek.github.io/jQuery-Upload-File/4.0.10/uploadfile.css">
+		<link rel="stylesheet" href="stylesheet/lexar.css">
+		
+		<script type="text/javaScript" src="js/bootstrap/jquery-1.11.3.min.js"></script>
+		<script type="text/javaScript" src="js/bootstrap/bootstrap.min.js"></script>
+
+		<script type="text/javaScript" src="js/lang.js"></script>
+		<script type="text/javaScript" src="js/en.js"></script>
+		<script type="text/javaScript" src="js/es.js"></script>
+		<script type="text/javaScript" src="js/email-sender.js"></script>
+		<script src="http://hayageek.github.io/jQuery-Upload-File/4.0.10/jquery.uploadfile.min.js"></script>
+		<script type="text/javaScript" src="js/file-upload.js"></script>
+		<script type="text/javaScript" src="js/lexar.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			    $("#menu").load("menu.html", function() {
+			        menuBehavior('#menu-sumate');
+			    });
+			});
+
+			$(function(){
+				$(document).ready(function(){
+				   $.post("php/clearUploads.php");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<header id="header"></header>
+		<div id="menu"></div>
+		<div id="content" class="sumate-content">
+			<div class="section-header">
+				<img src="images/empleo/empleo-foto.jpg" class="img-responsive" alt="sumate al equipo header">
+				<div class="over-header">
+					<span class="tr" key="menu-sumate">SUMATE AL EQUIPO</span>
+				</div>
+			</div>
+			<div class="col-xs-12 col-750-6 sumate-header">
+				<div>
+					<img src="images/empleo/empleo-muñequito.jpg" alt="muniequito"/>
+				</div>
+				<div class="tr" key="sumate-queres"></div>
+				<div class="tr" key="obligatorios"></div>
+				<div class="tr-as-html" key="sumate-parrafo"></div>
+			</div>
+			<form id="sumate-form" class="col-750-6">
+				<div class="sumate-content">
+					<div class="fields container">
+						<div class="first">
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="nombre-apellido"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-nombre" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="telefono-fijo"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-tel-fijo">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="telefono-movil"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-tel-movil">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="email"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="email" id="sumate-email" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="sumate-profesion"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-profesion">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="sumate-idioma-trabajo"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-idioma-trabajo">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-5 col-750-6">
+									<label class="tr" key="sumate-especializacion"></label>
+								</div>
+								<div class="col-xs-12 col-sm-7 col-750-6">
+									<input type="text" id="sumate-especializacion">
+								</div>
+							</div>
+							<div class="row upload">
+								<label for="tr_subida" class="tr" key="sumate-cv"></label>
+								<div id="fileuploader3" class="fileuploader">Upload</div>
+							</div>
+						</div>
+						<div class="mensaje">
+							<div>
+								<label class="tr" key="sumate-mensaje"></label>
+							</div>
+							<div>
+								<textarea id="sumate_mensaje" rows="4"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sumate-buttons buttons-div">
+					<button type="button" class="btn cancel-button tr" onclick="clearTeamFields()" key="cancelar">CANCELAR</button>
+					<button type="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i>" class="btn btn-default send-button tr" key="enviar">ENVIAR</button>
+				</div>
+			</form>
+		</div><!--end of div id=content-->
+		<footer id="footer"></footer>
+	</body>
+</html>

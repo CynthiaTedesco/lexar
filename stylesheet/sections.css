@@ -1,0 +1,1529 @@
+/* HOME MOBILE */
+
+/*slideshow mobile*/
+.carousel-inner>.item>img{
+	height: 300px;
+}
+.carousel-caption{
+	height: 100%;
+}
+.carousel-caption img{
+	max-width: 200px;
+	position: relative;
+	top: 50%;
+}
+/*end slideshow mobile */
+/* certifications mobile */
+h3.cert-title{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:3% 2% 3% 0;
+    color:#575777;
+    margin-bottom: 10%;
+    border-bottom: 1px solid #bfc792
+}
+/* end certifications */
+.excelti-img {
+    width:70%;
+}
+.litterae-img{
+    width:65%;
+}
+.excelit-div{
+    text-align:-webkit-left;
+    text-align: left;
+}
+.litterae-div{
+    text-align:-webkit-right;
+    text-align: right;
+}
+.derecho-img{
+    width:100%;
+}
+.uba-img{
+    width:100%;
+}
+.colegio-img{
+    width:100%;
+}
+/* social mobile */
+
+.home-social{
+  background:#855378;
+  padding-right:3%;
+  padding-left:3%;  
+  text-align: -webkit-center;
+}
+
+.home-social-first{
+  padding-top:10%;
+}
+
+.iframe-div{
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	position: relative;
+	overflow-y: scroll;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 8%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-social-first div.iframe-div{
+	overflow: hidden;
+}
+
+.iframe-div iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#social{
+  background:#855378;
+  margin-top:4%;
+}
+/* end social mobile */
+#radio{
+  background: white;
+}
+
+.banner-radio-img{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* END HOME MOBILE */
+/* COMMONS MOBILE */
+.section-header img{
+	min-height: 80px;
+}
+.section-header{
+	position: relative;
+}
+/* END COMMONS MOBILE */
+/* CONOCENOS MOBILE */
+.over-header{
+	background: #855378;
+    border-radius: 15px 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 0.3em 1em;
+    position: absolute;
+    bottom: 0.5em;
+    left: 1.5em;
+}
+.conocenos-menu{
+	width: 100%;
+	padding: 2em;
+	padding-bottom: 0;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.section-body>hr{
+	clear: both;
+    border: 0;
+    height: 20px;
+    box-shadow: inset 0 20px 20px -20px #c5c5c5;
+    margin-bottom: 0;
+}
+.conocenos-menu div{
+	list-style: none;
+    padding: 0.2em 1.5em;
+    background: #f8f8f8;
+    border-radius: 40px;
+    margin-bottom: 1em;
+    width: auto;
+    display: inline-block;
+}
+.conocenos-menu div a{
+	float: left;
+	text-decoration: none;
+	color: #B9B9B9;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.conocenos-menu div.active{
+	background: #636466;
+}
+.conocenos-menu div.active a{
+	color:#F3F3F3;
+}
+.conocenos-menu div:hover{
+	background: #E4EEB4;
+}
+.conocenos-menu div:hover a{
+	color:#929683;
+}
+.conocenos-content{
+	clear: left;
+}
+.conocenos-content hr{
+	border-top: 1px solid #C2D72E;
+}
+.conocenos-content div:first-child{
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.conocenos-content .text{
+	width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: justify;
+}
+.conocenos-content .text p {
+	line-height: 1.3em;
+    padding-bottom: 1em;
+}
+.conocenos-content .text .firma p{
+	margin: 0;
+	line-height: normal;
+    padding: 0;
+    margin-left: 5em;
+}
+.conocenos-content .text .firma .name{
+	padding-top: 2em;
+}
+.conocenos-content .text .firma .ceo{
+	font-style: italic;
+}
+.firma img, .firma div {
+	float:left;
+}
+.conocenos-content .footer-aboutus, .section-body .footer{
+	margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 5em;
+    color: white;
+    position: relative;
+}
+.section-body .footer{
+    background: #855376;
+    text-align: center;
+    padding-bottom: 10em;
+    min-height: 220px;
+}
+.section-body .footer p {
+	width: 50%;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+    font-family: 'Raleway-Thin';
+}
+.conocenos-content .footer-aboutus img{
+	width: 100%;
+	min-height: 450px;
+	content: url("../images/conocenos/acercade-back-filosofia-responsive.jpg");
+}
+.conocenos-content .footer-aboutus .philosophy-title{
+	position: absolute;
+	left: 10%;
+    top: 1%;
+}
+.conocenos-content .footer-aboutus p {
+	text-align: justify;
+	position: absolute;
+	top: 17%;
+    left: 10%;
+    width: 80%;
+    line-height: 1.6em;
+}
+.section-body .footer div.quotes-button{
+	position: absolute;
+	left: 15%;
+    margin-top: 10em;
+    width: 71%;
+    padding: 1em;
+    float: left;
+    background: #C0D730;
+    font-weight: bold;
+}
+.section-body .footer div.quotes-button:hover{
+    background: #636466;
+}
+.section-body .footer div.quotes-button a{
+	color:white;
+	text-decoration: none;
+}
+.section-body .footer .quotes-img{
+	position: absolute;
+    left: 37%;
+    top:15%;
+}
+.conocenos-content.forma-de-trabajo .text div{
+	text-align: center;
+}
+.conocenos-content.forma-de-trabajo .text div img{
+	display: inline;
+}
+/* END CONOCENOS MOBILE */
+/* SERVICIOS MOBILE */
+.servicios-main-content{
+    float: left;
+}
+.servicios-menu>div{
+    text-align: center;
+}
+.row .servicios-menu div hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.servicios-menu{
+    padding: 2em 4em 1em;
+    font-size: 18px;
+}
+.servicios-menu div.active {
+    font-weight: bold;
+}
+.texto-servicios{
+    background: #F9F9F9;
+}
+.servicios-menu div:hover{
+    font-weight: bold;
+}
+.titulo{
+    border-bottom: #C2D63C solid 2px;
+}
+.servicios-titulo{
+    padding-bottom: 0.3em;
+    padding-right: 0.5em;
+    margin-top: 0;
+    width: auto;
+    display: inline-block;
+    
+}
+.servicios-content{
+    background: #F9F9F9;
+    padding: 2em;
+}
+.servicios-parrafo{
+    margin: 2em auto;
+    text-align: justify;
+}
+.servicios-item{
+    text-align: justify;
+    margin-left: 2em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.servicios-items{
+    list-style: none;
+}
+.servicios-item:before{
+    color: #C2D63C;
+    content: "\2022";
+    font-size: 2.5em;
+    padding-right: .25em;
+    position: relative;
+    top: .1em
+}
+.section-body .servicios-footer{
+    margin-top: 0;
+}
+
+/* END SERVICIOS MOBILE */
+/* ESPECIALIZACIONES MOBILE */
+.especializaciones-titulo{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: 600;
+}
+.especializaciones-parrafo{
+    margin: 2em;
+    text-align: justify;
+}
+.especializaciones-texto{
+    background: #F9F9F9;
+    padding: 1em 2em;
+}
+.especializaciones-menu{
+    padding: 2em;
+}
+.especializaciones-menu div{
+    padding: 0.7em 1.5em;
+    border-radius: 20px;
+}
+.especializaciones-menu div:hover{
+    background: #E5EFB5;
+}
+.especializaciones-menu div a {
+    color:black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Raleway-Light;
+}
+.especializaciones-menu div.active a {
+    color:#C2D63C;
+    font-weight: 700;
+}
+.section-body.especializaciones .footer{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.especializaciones-content{
+    background: #C0D730;
+    padding-top: 2em;
+}
+.especializaciones-items{
+    list-style: none;
+    color: white;
+    padding: 2em 3em;
+    margin-bottom: 0;
+}
+.especializaciones-item:before{
+    color: white;
+    content: "\003e";
+    font-size: 1em;
+    padding-right: 0.75em;
+    position: relative;
+}
+.especializaciones-item{
+    margin-bottom: 0.8em;
+}
+/* END ESPECIALIZACIONES MOBILE */
+/* PRESUPUESTOS MOBILE */
+.fileuploader{
+    width: inherit!important;
+}
+form ul{
+    list-style-type: none;
+}
+form ul li{
+    margin: 15px 0; 
+}
+
+form label{
+    display: block;
+}
+.presupuestos-content.first{
+    margin:10%; 
+    position: relative;
+    height: 6em;
+}
+.presupuestos-content.first img{
+    float: left;
+    position: relative;
+    left: 10px;
+}
+.presupuestos-content.first div{
+    width: 7em;
+    font-size: 2em;
+    line-height: normal;
+}
+.presupuestos-content.first span{
+    bottom: -1px;
+    font-style: italic;
+}
+.presupuestos-content.first div, .presupuestos-content.first span{
+    position: absolute;
+    left: 70px;
+}
+.presupuestos-content.completa, .presupuestos-content.selecciona{
+    clear: both;
+    position: relative;
+    margin: 10%;
+}
+.presupuestos-content.selecciona{
+    margin-top: 5%;
+}
+.presupuestos-content.completa div.tr, .presupuestos-content.selecciona div.tr{
+    font-family: 'Raleway-semiBold';
+    color:#C0D730;
+    font-size: 1.2em;
+}
+.section-body.presupuestos hr{
+    box-shadow: none;
+    border-top: 1px solid #eee;
+}
+.fields ul li {
+    margin-top: 7%;
+}
+.fields ul li input, .fields ul li textarea, .fields div.row input, .fields div.row textarea{
+    border: 0;
+    background: #f0f0f0;
+    line-height: 3em;
+    width: 17em;
+    padding-left: 5%;
+}
+select.form-control{
+    border: 0;
+    background: #f0f0f0;
+    border-radius: 0;
+    height: 3em;
+    box-shadow: none;
+    width: 17em;
+}
+select#xyz {
+    border:0px;
+    outline:0px;
+}
+li label.btn, div.upload label.btn{
+    background: #cac7c7;
+    border: 0;
+    text-shadow: none;
+}
+.dp{
+    width: 20em;
+}
+.dp span {
+    background: white;
+    border: 0;
+}
+.dp span span {
+    content: url('../images/presupuestos/datepicker.png');
+    max-height: 3em;
+    margin-top: -0.5em;
+}
+div.date input.form-control{
+    height: 3em;
+    border-radius: 0;
+    box-shadow: none;
+}
+.selecciona-menu{
+    margin: 5% 0;
+    height: 100px;
+}
+.selecciona-menu div{
+    float: left;
+    padding: 0.5em 0.53em;
+    border-radius: 25px;
+    background: #F0F0F0;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+.selecciona-menu div:hover{
+    background: #E4EEB4;
+    color:#929683;
+}
+.selecciona-menu div a{
+    color: black;
+    text-decoration: none;
+}
+.selecciona-menu div.active{
+    background: #C0D730;
+}
+.selecciona-menu div.active a{
+    color: white;
+}
+.selecciona-content{
+    clear: both;
+}
+.buttons-div{
+    margin: 5%;
+    text-align: center
+}
+.buttons-div button.btn:hover{
+    background: #636466;
+    color: white;
+    border: 0;
+}
+.buttons-div button{
+    margin: 0 2%;
+    border-radius: 0;
+    padding: 5%;
+    border: 0;
+    box-shadow: none;
+    width: 45%;
+    color: white;
+    font-weight: bold;
+}
+.buttons-div button.send-button{
+    background: #C0D730;
+}
+.fields ul li.row{
+    margin-left: 0;
+}
+/* END PRESUPUESTOS MOBILE */
+/* CONTACTANOS MOBILE */
+.col-sm-6{
+    float: left;
+}
+.contacto-content.container{
+    padding: 5% 10%;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+}
+.contacto-content>div.row, .contacto-content>div.row>div.row{
+    margin: 0;
+}
+div.mensaje {
+    text-align: left;
+    padding: 1em 0;
+}
+div.mensaje textarea{
+    width: 100%;
+}
+.contacto-header{
+    padding: 5%;
+    text-align: center;
+}
+.contacto-header div:nth-child(2){
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+.contacto-header div:nth-child(3), .sumate-header div:nth-child(3){
+    font-style: italic;
+}
+div.row.first div{
+    margin: 2% 0;
+}
+/* END CONTACTANOS MOBILE */
+/* SUMATE MOBILE */
+div.row.upload{
+    margin-left: initial;
+}
+.col-xs-12.col-750-6.sumate-header{
+    background: #F9F9F9;
+    padding: 2em;
+    float: none;
+}
+.sumate-header div:nth-child(2){
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+.sumate-header div:nth-child(3){
+    height: 3em;
+    border-bottom: 1px solid #C2D72E;
+}
+.sumate-header div:nth-child(4){
+    text-align: justify;
+    padding: 2em 0;
+}
+.sumate-content div.mensaje {
+    padding-left: 0;
+}
+.sumate-content div.mensaje textarea{
+    border: 0;
+    background: #f0f0f0;
+    line-height: 3em;
+    padding-left: 5%
+}
+.sumate-content div.fields{
+    padding: 2em;
+}
+.sumate-content div.fields>div>div.row{
+    padding: 1em 0;
+}
+#sumate-form .buttons-div{
+    border-top: 1px solid #DEDEDE;
+    padding-top: 2em;
+}
+/* END SUMATE MOBILE */
+/* ENTREDICHOS MOBILE */
+#entredichos-body{
+    background: #f9f9f9;
+}
+.radio-content{
+    background: #F9F9F9;
+}
+.radio-content .entredichos-header{
+    padding: 2em;
+}
+.entredichos-header>div:nth-child(1) div:nth-child(1){
+    font-size: 2em;
+    padding: 1em 0 0.5em;
+    border-bottom: 1px solid #C2D72E;
+    text-align: left;
+}
+.entredichos-header>div:nth-child(2){
+    padding-bottom: 3em;
+}
+.entredichos-header div.radio-parrafo{
+    text-align: justify;
+    margin: 1.5em 0;
+}
+.youtube-container{
+    clear: both;
+    padding: 2em;
+    border: 1px solid #eee;
+    background: white;
+}
+.radio-social{
+    clear: both;
+    padding: 1em 0;
+}
+.radio-publicidad{
+    background: #855378;
+    padding: 2em 1.5em;
+    color: white;
+    height: 23em;
+    margin-bottom: 2em;
+}
+.radio-social p, .radio-social img{
+    float: left;
+}
+.radio-social p{
+    margin: 0.5em;
+}
+.radio-publicidad span.cuando{
+    font-size: 1.5em;
+}
+.radio-publicidad .tambien-en{
+    margin: 2em 0;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+.conduccion span:nth-child(2){
+    font-family: 'Raleway-bold';
+}
+.conduccion {
+    color: #C2D72E;
+}
+.video{
+    margin-top: 2em;
+}
+.video, .dateAndViewCount{
+    width: 250px;
+}
+.duration{
+    background: #373737;
+    opacity: 0.5;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em;
+}
+.dateAndViewCount div:nth-child(1), .dateAndViewCount span, div .item a{
+    float: left;
+}
+.channel{
+    clear: both;
+}
+.justified{
+    text-align: justify;
+}
+.dateAndViewCount span{
+    padding:0 0.5em;
+}
+.dateAndViewCount div{
+    white-space: nowrap;
+}
+/* END ENTREDICHOS MOBILE */
+
+/* special width 360 */
+@media (min-width: 360px){
+.radio-publicidad{
+    height: 20em
+}
+}
+/* end special width 360 */
+/* special width 400 */
+@media (min-width: 400px){
+.iframe-div{
+    width: 350px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+}
+/* end special width 400 */
+@media screen and (min-width:480px){
+/* HOME 480 */
+/* slideshow */
+.carousel-inner>.item>img{
+    height: 350px;
+}
+.carousel-caption img{
+    max-width: 300px;
+}
+/* end slideshow*/
+/* certifications 480 */
+h3.cert-title{
+    border-bottom: 1px solid #bfc792;
+    width: 15em;
+    margin-bottom: 5%;
+}
+/* end certifications 480 */
+.banner-radio-img{
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+/*END HOME 480 */
+/* CONOCENOS 480 */
+.section-body .footer .quotes-img {
+    left: 44%;
+}
+.section-body .footer-aboutus img{
+    min-height: initial;
+    max-height: 300px;
+}
+.section-body .footer-aboutus p {
+    top: 25%;
+}
+/* END CONOCENOS 480 */
+/* SERVICIOS 480 */
+.row .servicios-menu div hr{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.servicios-menu{
+    padding: 0;
+}
+.servicios-menu div{
+    float: left;
+    padding-top: 1em;
+    height: 160px;
+    background: white;
+}
+.servicios-menu div img{
+    margin: 0 auto;
+    float: none;
+}
+.servicios-menu div:hover{
+    background: #F3F7DB;
+}
+.servicios-menu div:hover img#traduccion-menu{
+    content: url("../images/servicios/servicios-lapiz-traduccion-over.png");
+}
+.servicios-menu div:hover img#correccion-menu{
+    content: url("../images/servicios/servicios-lapiz-correccion-over.png");
+}
+.servicios-menu div:hover img#interpretacion-menu{
+    content: url("../images/servicios/servicios-lapiz-interp-over.png");
+}
+.servicios-menu div:hover img#subtitulado-menu{
+    content: url("../images/servicios/servicios-lapiz-subtitulado-over.png");
+}
+.servicios-menu div.first, .servicios-menu div.second{
+    border-bottom: 1px solid #D3D3D3;
+}
+.servicios-content.subtitulado div.servicios-titulo{
+    width: 12em;
+}
+.servicios-titulo{
+    padding-top: 1em;
+}
+/* END SERVICIOS 480 */
+/* ESPECIALIZACIONES 480 */
+.col-480-12{
+    width: 100%;
+}
+.col-480-6{
+    width: 50%;
+    float: left;
+}
+.especializaciones-titulo{
+    width: auto;
+    margin: 1em;
+    font-size: 30px;
+}
+.section-body.especializaciones .footer{
+    clear: both;
+}
+.especializaciones-menu{
+    padding-right: 0;
+    padding-top: 3em;
+}
+.especializaciones-menu div.active{
+    width: 100%;
+    background: #c0d730;
+    border-radius: 30px 0 0;
+}
+.especializaciones-menu div.active a {
+    color: white;
+}
+.especializaciones-content{
+    min-height: 35em;
+}
+.especializaciones-menu div:hover{
+    background: #E5EFB5;
+    border-radius: 30px 0 0;
+}
+/* END ESPECIALIZACIONES 480 */
+/* PRESUPUESTOS 480 */
+.fields ul li.row>div.ajax-file-upload-container{
+  margin-left: 30%;
+}
+li.upload .fileuploader{
+    margin-top: 1em;
+    padding-top: 0.8em;
+}
+.fields ul li label {
+    float: left;
+    width: 10.4em;
+    height: 3em;
+}
+.dp{
+    width: 17em;
+}
+.fields ul li.es_publica label{
+    margin-top: 0;
+}
+.fields ul li.upload label{
+    padding-top: 0.8em;
+}
+.fields ul li.comentarios label, .fields ul li.comentarios textarea{
+    width: 100%;
+}
+.selecciona-menu{
+    height: 6em;
+}
+.fields ul li {
+    margin-top: 5%;
+}
+.presupuestos-content.completa, .presupuestos-content.selecciona {
+    margin: 4% 10%;
+}
+.fields ul li.row label{
+    width: 30%;
+    padding-right: 1em;
+}
+.fields ul li.row>input, .fields ul li.row>select, .fields ul li.row>div{
+    width: 70%;
+}
+.buttons-div{
+    text-align: right;
+}
+.buttons-div button{
+    width: 30%;
+    padding: 3%;
+}
+/* END PRESUPUESTOS 480 */
+/* CONTACTANOS 480 */
+.contacto-content div.row>div.row.mensaje{
+    margin-left: 15px;
+    padding-left: 0;
+}
+/* END CONTACTANOS 480 */
+/* SUMATE 480 */
+.file-upload-statusbar{
+  display: flex;
+  width: 40%!important;
+  margin-left: 38%;
+}
+div.row.upload{
+    margin-left: -15px;
+}
+div.row.upload div.file-upload-statusbar {
+    width: inherit!important;
+    margin-left: initial;
+}
+div.row.upload div.ajax-file-upload-container{
+  padding: 0 15px;
+  margin-left: 40%;
+}
+div.row.upload>label{
+    width: 40%;
+    float: left;
+    padding: 0.5em 0;
+    margin-left: 15px
+}
+.sumate-header div:nth-child(2){
+    max-width: 500px;
+}
+/* END SUMATE 480 */
+/* ENTREDICHOS 480 */
+.tambien-en span.separator{
+    margin: 0 0.5em; 
+}
+.radio-content .entredichos-header {
+    padding: 2em 4em;
+}
+.video, .youtube-text{
+    width:50%; 
+}
+div.youtube-container div.item{
+    float: left;
+}
+div.item div.youtube-text, .video{
+    float: left;
+    margin: 1em 0;
+}
+.youtube-text{
+    padding: 0 1em;
+    font-size: 12px;
+}
+.youtube-container {
+    height: 70em;
+}
+/* END ENTREDICHOS 480 */
+}
+@media screen and (min-width:560px){
+.selecciona-menu{
+    height: 4em;
+}
+.youtube-text {
+    font-size: 14px;
+}
+/*.youtube-container {
+    height: 75em;
+}*/
+}
+@media screen and (min-width:670px){
+/*.youtube-container {
+    height: 80em;
+}*/
+}
+@media screen and (min-width:750px){
+/* HOME 750 */
+/* slideshow 750 */
+.carousel-inner>.item>img{
+    height: 500px;
+    width: 100%;
+}
+.carousel-caption p {
+    float: none;
+    font-size: 1.2em;
+    width: 28em;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.carousel-caption{
+    height: inherit;
+    bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    top: 30%;
+}
+.carousel-caption img{
+    margin-bottom: 2em;
+}
+/* end slideshow 750 */
+/* certifications 750 */
+h3.cert-title{
+    width: 20em;
+}
+#certifications div.row img{
+    width: initial;
+    margin-left: -15px;
+}
+#certifications div.row div{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.derecho-div{
+    text-align: right;
+}
+#certifications div.row div.excelit-div{
+    padding-left: 3%;
+}
+/* end certifications 750*/
+/* social 750 */
+section#social div.hidden-sm{
+    display: none!important;
+}
+.home-social{
+    margin-top: 5%;
+    padding-top: 0;  
+}
+/* end social 750*/
+/* radio 750 */
+.banner-radio-img{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+/* end radio 750 */
+/* END HOME 750 */
+/* CONOCENOS 750 */
+.over-header{
+    border-radius: 25px 0;
+    font-size: 16px;
+    padding: 0.5em 2em;
+    bottom: 1.9em;
+    left: 7em;
+}
+.conocenos-content .footer-aboutus img{
+    content: url("../images/conocenos/acercade-back-filosofia.jpg");
+}
+.conocenos-content .footer-aboutus p {
+    width: 60%;
+}
+.section-body .footer .quotes-img{
+    left: 66%;
+    top: 60%;
+}
+.section-body .footer div.quotes-button{
+    width: 30%;
+    left: 33%;
+    top: 70%;
+    margin-top: 0
+}
+.section-body .footer p {
+    width: 80%;
+    font-size: 22px;
+    margin-left: 10%;
+    padding-top: 2em;
+}
+.section-body .footer {
+    min-height: 270px;
+}
+/* END CONOCENOS 750 */
+/* SERVICIOS 750 */
+.col-750-text{
+    width: 60%;
+    float: left;
+    clear: none;
+}
+.servicios-menu{
+    float: left;
+    width: 250px;
+    margin-left: 5%
+}
+.servicios-menu div{
+    border-bottom: 1px solid #D3D3D3;
+    position: relative;
+}
+.servicios-menu div .servicios-menu-flecha{
+    position: absolute;
+    top: 30%;
+    left: 99.9%;
+}
+.servicios-menu div.active .servicios-menu-flecha{
+    content: url("../images/servicios/servicios-flecha-on.png");
+}
+.servicios-menu div:hover .servicios-menu-flecha{
+    content: url("../images/servicios/servicios-flecha-over.png");
+}
+.servicios-content{
+    padding-left: 5em;
+    padding-bottom: 5em;
+    padding-top: 3em;
+    min-height: 45.5em;
+}
+.servicios-content.subtitulado h2.servicios-titulo{
+    white-space: nowrap;
+    width: 11em;
+}
+.servicios-titulo{
+    padding-top: 0;
+}
+/* END SERVICIOS 750 */
+/* ESPECIALIZACIONES 750 */
+.section-body.especializaciones .footer .quotes-img{
+    top:45%;
+}
+.section-body.especializaciones .footer .quotes-button{
+    top: 50%;
+}
+.section-body.especializaciones .footer{
+    min-height: 220px;
+}
+/* END ESPECIALIZACIONES 750 */
+/* PRESUPUESTOS 750 */
+li.row.upload div.ajax-file-upload-container, 
+.fields ul li.row>div.ajax-file-upload-container {
+  margin-left: 38%;
+}
+.presupuestos-content.completa, .presupuestos-content.selecciona {
+    margin: 0;
+    padding: 3% 5%;
+    clear: none;
+}
+.presupuestos-content>img{
+    float: none;
+    margin: 1% auto;
+    margin-right: auto;
+}
+.presupuestos-content.selecciona{
+    border-left: solid 1px #DDDDDD;
+}
+.presupuestos-content.selecciona>img{
+    position: absolute;
+    right: 10%;
+}
+.presupuestos-content.first {
+    margin-bottom: 2%;
+}
+.presupuestos-content.first div, .presupuestos-content.first span{
+    width: 100%;
+}
+.presupuestos-content.first div{
+    font-size: 3em;
+}
+.presupuestos-content.first span {
+    top: 4em;
+}
+.presupuestos-content div.selecciona-menu{
+    margin-top: 14em;
+}
+.presupuestos-content.completa div.fields{
+    margin-top: 15%;
+}
+.fields ul li.row label {
+    float:none;
+    height: initial;
+    padding: 0.5em 0;
+    width: 100%;
+}
+div.selecciona-content div.fields ul li.row label {
+    float:left;
+    height: initial;
+    padding: 0.5em 0;
+    width: 38%;
+}
+div.selecciona-content{
+    margin-top: 5em;
+}
+div.selecciona-content div.fields ul li.row>input, 
+div.selecciona-content div.fields ul li.row select,
+div.selecciona-content div.fields ul li.row div.date {
+    width: 60%;
+}
+.selecciona-menu div {
+    padding: 0.5em 1em;
+}
+.fields ul li.row>input, .fields ul li.row>select, .fields ul li.row>div {
+    width: 100%;
+}
+.fields ul li.row {
+    margin-top: 0;
+}
+.buttons-div button {
+    width: 20%;
+    padding: 2% 0;
+}
+.fields ul li.upload label{
+    float: left;
+    width: 30%;
+}
+.fields ul li.upload>label:first-child{
+    width: 50%;
+}
+.fields ul li label {
+    height: 2em;
+    margin-top: 1em;
+    padding-top: 0.8em;
+}
+/* END PRESUPUESTOS 750 */
+/* CONTACTANOS 750 */
+.contacto-content div.row.fields>div.row{
+    margin-left: 0;
+    padding-left: 5%;
+}
+.contacto-content.container {
+    padding: 5%;
+}
+div.row.mensaje label{
+    margin: 2% 0; 
+}
+div.row.mensaje textarea {
+    width: 90%;
+}
+/* END CONTACTANOS 750 */
+/* SUMATE 750 */
+div.row.upload>label{
+    width: 50%;
+}
+div.row.upload div.ajax-file-upload-container{
+  margin-left: 50%;
+}
+.sumate-content div.col-xs-12.col-750-6.sumate-header,
+.sumate-content>form{
+    float: left;
+    padding: 4em;
+}
+.sumate-content div.col-xs-12.col-750-6.sumate-header{
+    min-height: 76em
+}
+.sumate-content + #footer{
+    clear: both;
+}
+#sumate-form .buttons-div button.send-button{
+    right: 1em;
+}
+#sumate-form .buttons-div button.cancel-button{
+    left: 1em;
+}
+#sumate-form .buttons-div button{
+    width: 30%;
+    padding: 3%;
+    position: absolute;
+    top: 2em;
+}
+#sumate-form .buttons-div {
+    text-align: center;
+    position: relative;
+    height: 7em;
+}
+.sumate-content div.mensaje{
+    clear: both;
+}
+.sumate-content div.fields div.row input{
+    width: initial;
+}
+div.upload label.btn{
+    max-width: initial;
+}
+.sumate-content>form{
+    padding: 4em 1em 0;
+}
+/* END SUMATE 750*/
+/* ENTREDICHOS 750 */
+.radio-publicidad {
+    height: 23em;
+}
+.radio-content .entredichos-header {
+    padding: 2em 2em;
+}
+.video{
+    width: 30%; 
+}
+.youtube-text{
+    width: 70%;
+}
+/* END ENTREDICHOS 750 */
+}
+@media (min-width: 400px) and (max-width: 749px){
+.section-body .footer .quotes-img {
+    left: 42.5%;
+}
+}
+/* end special width 400px */
+@media screen and (min-width:970px){
+/* HOME 970 */
+/* certifications 970 */
+h3.cert-title{
+    padding:4% 0 2% 0;
+    color:#575777;
+}
+.colegio-img, .derecho-img, .excelti-img, .litterae-img, .uba-img{
+    width:auto;
+}
+.litterae-div{
+    text-align:-webkit-center;
+}
+#certifications div.row div{
+    text-align: center;
+}
+#certifications div.row div.derecho-div{
+    text-align: right;
+}
+#certifications div.row div.excelit-div {
+    text-align: left;
+}
+/* end certifications 970 */
+/* social 970 */
+.home-social{
+  background:#855378;
+  padding-right:3%;
+  padding-left:3%;  
+}
+section#social div.hidden-sm{
+    display: block!important;
+}
+.col-970-social-img{
+    width: 25%;
+    text-align: center;
+}
+section#social div.col-970-iframe{
+    width: 37%;
+}
+#seguinos{
+  margin-top: 40%;
+  margin-left: 10%
+}
+.iframe-div {
+    width: 300px;
+}
+/* end social 970 */
+/*END HOME 970*/
+/* CONOCENOS 970 */
+.over-header{
+    font-size: 16px;
+    padding: 0.5em 2em;
+    bottom: 1.9em;
+    left: 7em;
+}
+.conocenos-menu div{
+    margin-bottom: 2em;
+    float: none;
+    margin: 0 1.5em;
+    display: inline-block;
+}
+.conocenos-menu {
+    width: 80%;
+}
+.conocenos-content div:first-child{
+    width: 35%;
+    white-space: nowrap;
+}
+.conocenos-content .text{
+    margin-top: 5em;
+    width: 75%;
+}
+.conocenos-content .text p {
+    line-height: 1.8em;
+}
+.conocenos-content .footer-aboutus .philosophy-title{
+    left: 13.5%;
+    top: 25%;
+}
+.conocenos-content .footer-aboutus p {
+    top: 40%;
+    left: 13.5%;
+    width: 45%;
+    line-height: 1.8em;
+ }
+ .section-body>hr{
+    margin-bottom: 20px;
+}
+.conocenos-content .footer-aboutus img{
+    max-height: initial;
+}
+.section-body .footer p {
+    width: 60%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+.section-body .footer div.quotes-button {
+    top: 60%;
+}
+.section-body .footer .quotes-img {
+    top:50%;
+}
+/* END CONOCENOS 970 */
+/* SERVICIOS 970 */
+.col-750-text {
+    width: 69%;
+}
+/* END SERVICIOS 970 */
+/* ESPECIALIZACIONES 970 */
+.especializaciones-content{
+    min-height: 56em;
+}
+.especializaciones-texto{
+    min-height: 56em;
+    position: relative;
+    width: 33%;
+}
+.especializaciones-texto img{
+    position: absolute;
+    bottom: 4em;
+    right: 3em;
+}
+.especializaciones-titulo{
+    font-size: 26px;
+}
+/* END ESPECIALIZACIONES 970 */
+/* PRESUPUESTOS 970 */
+li.upload .fileuploader {
+    margin-top: 0;
+    padding-top: 0;
+}
+div.selecciona-content{
+    margin-top: initial;
+}
+.fields>ul li.row label {
+    float: left;
+    margin-top: -0.1em;
+}
+.fields>ul li.row label, .fields ul li.upload>label:first-child {
+    width: 38%
+}
+.fields ul li.comentarios>label, .fields ul li div.dp input{
+    width: 100%;    
+}
+.fields>ul li.row input, .fields>ul li.row select, .fields>ul li.row div {
+    width: 60%
+}
+.selecciona-content{
+    padding-top: 2em;
+}
+.buttons-div {
+    margin: 0;
+    margin-bottom: 2%;
+}
+.buttons-div button {
+    width: 15%;
+    padding: 1%;
+}
+.buttons-div button:first-child {
+    margin-right: 0
+}
+/* END PRESUPUESTOS 970 */
+/* CONTACTANOS 970 */
+.contacto-content div.row.fields>div.row {
+    padding-left: 5%;
+    height: 300px;
+}
+.fields div.row input {
+    width: 100%;
+}
+div.row.mensaje textarea {
+    height: 15em;
+}
+.contacto-content.container {
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.contacto-header{
+    padding: 3%;
+}
+/* END CONTACTANOS 970 */
+/* SUMATE 970 */
+.sumate-content div.fields div.row input{
+    width: 100%;
+}
+/* END SUMATE 970 */
+/* ENTREDICHOS 970 */
+.radio-footer{
+    clear: both;
+}
+.youtube-container {
+    clear: right;
+    float: left;
+}
+.radio-content .entredichos-header{
+    height: 60em;
+    float: left;
+    background: #f9f9f9;
+}
+/* END ENTREDICHOS 970 */
+}
+/* special width 1000px */
+@media screen and (min-width:1000px){
+.iframe-div{
+    width: 330px;
+}
+.especializaciones-titulo{
+    font-size: 30px;
+}
+}
+/* end special width 1000px */
+
+
+@media screen and (min-width:1170px){
+h3.cert-title{
+    margin-bottom: 2%;
+}
+.iframe-div{
+    width: 360px;
+}
+/* PRESUPUESTOS 1170 */
+.selecciona-menu {
+    height: 2em;
+}
+/* END PRESUPUESTOS 1170*/
+}
+@media screen and (min-width:1370px){
+.section-header img{
+    width: 100%
+}
+}
+
+/*special widths*/
+@media (min-width: 768px) and (max-width: 969px) {}

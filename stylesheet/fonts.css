@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Thin';
+    src: url('fonts/Raleway-Thin.ttf');
+}
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Heavy';
+    src: url('fonts/Raleway-Heavy.ttf');
+}
+@font-face {
+    font-family: 'Raleway-ExtraLight';
+    src: url('fonts/Raleway-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('fonts/Raleway-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'quantum-icon';
+    src: url('fonts/quantum-icon.ttf');
+}
+@font-face {
+    font-family: 'KGBeginAgain';
+    src: url('fonts/KGBeginAgain.ttf');
+}
+
+span, li, h1, h2, h3, p, div, input {
+    font-family: 'Raleway';
+}
+
+.copyright{
+    font-family: 'Raleway-ExtraLight';
+}
+
+.bold {
+	font-family: 'Raleway-Bold';
+}
+
+.footer-span{
+    font-family: 'Raleway-ExtraLight';
+}
+
+.conocenos-content .text p,  {
+    font-family: "Raleway-Medium";
+}
+
+.conocenos-content .footer p {
+    font-family: 'Raleway-Thin';
+}
+
+.especializaciones-item {
+    font-family: 'Raleway-SemiBold';
+}
