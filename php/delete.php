@@ -1,5 +1,5 @@
 <?php
-$output_dir = "../uploads/";
+$output_dir = "../tmp/";
 if(isset($_POST["op"]) && $_POST["op"] == "delete" && isset($_POST['name']))
 {
 	$fileName =$_POST['name'];

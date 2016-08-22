@@ -1,5 +1,5 @@
 <?php
-$output_dir = "../uploads/";
+$output_dir = "../tmp/";
 if(isset($_FILES["myfile"]))
 {
 	$ret = array();

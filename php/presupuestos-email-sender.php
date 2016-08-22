@@ -23,10 +23,10 @@ $mail->IsHTML(true); // Set email format to HTML
 
 $mail->WordWrap = 90; // Set word wrap to 90 characters
 
-$uploads_path = '../uploads/';
+$uploads_path = '../tmp/';
 $uploads = scandir($uploads_path);
 foreach ($uploads as &$filename) {
-	if ($filename != '.' && $filename != '..'){
+	if ($filename != '.' && $filename != '..' && $filename != '.gitignore'){
 		$mail->AddAttachment($uploads_path . $filename);
 	}
 }
