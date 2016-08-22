@@ -22,6 +22,7 @@ $mail->WordWrap = 90; // Set word wrap to 90 characters
 
 $uploads_path = '../uploads/';
 $uploads = scandir($uploads_path);
+var_dump($uploads);
 foreach ($uploads as &$filename) {
 	if ($filename != '.' && $filename != '..'){
 		$mail->AddAttachment($uploads_path . $filename);
