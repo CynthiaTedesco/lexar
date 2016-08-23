@@ -27,7 +27,7 @@ $(function() {
         window.open('https://www.youtube.com/channel/UC0k7cSxwAvvKRUrwhC3bjQA', '_blank');
     });
     $("#radio-cienradios-logo").click(function() {
-        window.open('http://ar.cienradios.com/', '_blank');
+        window.open('http://ar.cienradios.com/player/palermo_fm939/', '_blank');
     });
 });
 var translate = function(){
@@ -115,11 +115,7 @@ var headerBehavior = function() {
     });
 
     $("#linkedin").click(function() {
-        window.open('http://linkedin.com', '_blank');
-    });
-
-    $("#skype").click(function() {
-        window.open('http://skype.com', '_blank');
+        window.open('https://www.linkedin.com/company/lexar', '_blank');
     });
 
     $("#main-logo").click(function() {
@@ -174,12 +170,9 @@ var footerBehavior = function() {
     });
 
     $("#linkedin-footer").click(function() {
-        window.open('http://linkedin.com', '_blank');
+        window.open('https://www.linkedin.com/company/lexar', '_blank');
     });
 
-    $("#skype-footer").click(function() {
-        window.open('http://skype.com', '_blank');
-    });
 };
 
 /* END FOOTER */

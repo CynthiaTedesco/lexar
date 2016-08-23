@@ -66,7 +66,6 @@ h3.cert-title{
 	-webkit-border-radius: 20px;
 	-o-border-radius: 20px;
 	position: relative;
-	overflow-y: scroll;
 	width: 300px;
 	height: 300px;
 	margin-bottom: 8%;
@@ -915,11 +914,10 @@ div.row.upload{
 }
 div.row.upload div.file-upload-statusbar {
     width: inherit!important;
-    margin-left: initial;
 }
 div.row.upload div.ajax-file-upload-container{
   padding: 0 15px;
-  margin-left: 40%;
+  margin-left: 42%;
 }
 div.row.upload>label{
     width: 40%;
@@ -1137,10 +1135,9 @@ li.row.upload div.ajax-file-upload-container,
 }
 .presupuestos-content.selecciona{
     border-left: solid 1px #DDDDDD;
-}
+}   
 .presupuestos-content.selecciona>img{
     position: absolute;
-    right: 10%;
 }
 .presupuestos-content.first {
     margin-bottom: 2%;
@@ -1223,10 +1220,10 @@ div.row.mensaje textarea {
 /* END CONTACTANOS 750 */
 /* SUMATE 750 */
 div.row.upload>label{
-    width: 50%;
+    width: 33%;
 }
 div.row.upload div.ajax-file-upload-container{
-  margin-left: 50%;
+    margin-left: 35%;
 }
 .sumate-content div.col-xs-12.col-750-6.sumate-header,
 .sumate-content>form{
@@ -1234,7 +1231,7 @@ div.row.upload div.ajax-file-upload-container{
     padding: 4em;
 }
 .sumate-content div.col-xs-12.col-750-6.sumate-header{
-    min-height: 76em
+    min-height: 78em
 }
 .sumate-content + #footer{
     clear: both;
