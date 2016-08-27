@@ -45,7 +45,7 @@ var translate = function(){
         $(this).html(aLangKeys[localStorage.getItem("lang")][$(this).attr('key')]);
     });
 
-    lang = localStorage.getItem("lang");
+    let lang = localStorage.getItem("lang");
 
     if (lang === 'es'){
         
