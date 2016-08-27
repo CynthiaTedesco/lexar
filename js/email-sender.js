@@ -1,3 +1,5 @@
+"use strict"
+
 var esTraduccion = function () {
 	return $('.selecciona-menu div.active').attr('id') === 'menu-traduccion';
 }
