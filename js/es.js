@@ -329,3 +329,6 @@ aLangKeys['es']['tambien-en']='También en';
 aLangKeys['es']['conducen']='Conducen:';
 aLangKeys['es']['quienes-conducen']='Valeria Cardozo, Virginia Rubiolo y Damián Santilli.';
 aLangKeys['es']['radio-social']='/EntredichosOK';
+
+aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
+aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";

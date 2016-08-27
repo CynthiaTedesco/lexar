@@ -270,6 +270,13 @@ $(function() {
     });
 });
 
+var hasError = function(e){
+    return e.indexOf("Error") > 0 ||
+           e.indexOf("error") > 0 || 
+           e.indexOf("errno") > 0 || 
+           e.indexOf("ndefined") > 0
+}
+
 var clearQuotesFields = function(){
     $('#presupuestos-form input, #presupuestos-form textarea').val('');
     $.post("php/clearUploads.php");

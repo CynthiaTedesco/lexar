@@ -163,9 +163,11 @@ $(function() {
 			success: function(e) {
 				$("button.send-button").button('reset');
 				clearQuotesFields();
-				alert(e);
-				//deberia mostrar cartel?
-				//limpiar los campos?
+				if (hasError(e)){
+					$("div.error-message").removeClass('hidden');	
+				} else {
+					$("div.success-message").removeClass('hidden');	
+				}
 			},
             error: function (textStatus, errorThrown) {
                 console.debug("Error getting the data");

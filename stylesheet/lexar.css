@@ -1,3 +1,9 @@
+.error-color{
+  color:red;
+}
+.success-color{
+  color:#C0D730;
+}
 .ajax-file-upload-progress{
   margin-top: 0px;
 }

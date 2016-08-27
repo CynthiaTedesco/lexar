@@ -31,8 +31,6 @@ foreach ($uploads as &$filename) {
 	}
 }
 
-$mail->AddEmbeddedImage('../images/header/header-logo-lexar.png', 'logo');
-
 $name = $_POST['nombre'];
 $email = $_POST['email'];
 $tel_fijo = getPostedValue($_POST, 'tel_fijo');
@@ -45,7 +43,7 @@ $message .= '<img src="cid:logo" alt="Lexar Web" />';
 $message .= '<p>Se ha solicitado un presupuesto del tipo <strong>'.getServiceTypeName($tipo).'</strong></p>';
 $message .= '<p>Información de contacto:</p>';
 $message .= '<ul>';
-$message .= "<li><span><strong>Name:</strong> </span><span>" . makeLabel($name) . "</span></li>";
+$message .= "<li><span><strong>Nombre:</strong> </span><span>" . makeLabel($name) . "</span></li>";
 $message .= "<li><span><strong>Email:</strong> </span><span>" . makeLabel($email) . "</span></li>";
 $message .= $tel_fijo ? "<li><span><strong>Teléfono fijo:</strong> </span><span>" . makeLabel($tel_fijo) . "</span></li>" : "";
 $message .= $tel_movil ? "<li><span><strong>Teléfono móvil:</strong> </span><span>" . makeLabel($tel_movil) . "</span></li>" : "";
@@ -140,6 +138,7 @@ $message .= '</ul></body></html>';
 
 $mail->Subject = $subject;
 $mail->Body    = $message;
+$mail->AddEmbeddedImage('../images/header/header-logo-lexar.png', 'logo');
 $mail->AltBody = '<p>Se ha solicitado un presupuesto del tipo <strong>'.getServiceTypeName($tipo).'</strong></p>';
 
 if(!$mail->Send()) {
