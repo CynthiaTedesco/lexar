@@ -1,3 +1,5 @@
+"use strict"
+
 var alreadyTranslated = false;
 
 $(function() {
@@ -44,13 +46,18 @@ var translate = function(){
     });
 
     lang = localStorage.getItem("lang");
+
+    if (lang === 'es'){
+        
+    } else if (lang === 'en'){
+
+    }
+    
     $(".language").removeClass("selected-language");
     $("ul.nav li#"+lang).addClass("selected-language");
 
     $(".hidden-en").css('display', (lang === 'en') ? 'none' : 'block');
 };
-
-
 
 var translateBehavior = function(){
 
