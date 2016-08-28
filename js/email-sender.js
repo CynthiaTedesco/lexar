@@ -208,9 +208,11 @@ $(function() {
 			success: function(e) {
 				$("div.contact-buttons button.send-button").button('reset');
 				clearContactFields();
-				alert(e);
-				//deberia mostrar cartel?
-				//limpiar los campos?
+				if (hasError(e)){
+					$("div.error-message-contactanos").removeClass('hidden');	
+				} else {
+					$("div.success-message-contactanos").removeClass('hidden');	
+				}
 			}
 		});
     });
@@ -254,9 +256,11 @@ $(function() {
 			success: function(e) {
 				$("button.send-button").button('reset');
 				clearTeamFields();
-				alert(e);
-				//deberia mostrar cartel?
-				//limpiar los campos?
+				if (hasError(e)){
+					$("div.error-message-sumate").removeClass('hidden');	
+				} else {
+					$("div.success-message-sumate").removeClass('hidden');	
+				}
 			}
 		});
     });
