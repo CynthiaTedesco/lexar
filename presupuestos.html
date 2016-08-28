@@ -134,10 +134,11 @@
 									<input type="text" id="tr_formato_entrega" name="tr_formato_entrega"><br/>
 								</li>
 								<li class="row es_publica">
-									<label for="tr_es_publica" class="control-label tr" key="es-publica"></label>
-									<select class="form-control required-if-visible" value="0" id="tr_es_publica" required name="tr_es_publica">
-								      <option class="tr" key="si" value="0">Si</option>
+									<a title="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA." class="tooltip1"><span title="" class="tr" key="es-publica"></span></a>
+									<select class="form-control required-if-visible" value="1" id="tr_es_publica" required name="tr_es_publica">
+								      <option class="tr" key="si" value="0">Sí</option>
 								      <option class="tr" key="no" value="1">No</option>
+								      <option class="tr" key="nose" value="2">No sé</option>
 								    </select>							     
 								</li>
 								<li class="row upload">
@@ -269,16 +270,18 @@
 									<label for="su_sincronizacion" class="control-label tr" key="sincronizacion"></label>
 									<select class="form-control" value="0" id="su_sincronizacion" name="su_sincronizacion">
 									  <option value="0"></option>
-								      <option class="tr" key="si" value="1">Si</option>
+								      <option class="tr" key="si" value="1">Sí</option>
 								      <option class="tr" key="no" value="2">No</option>
+								      <option class="tr" key="nose" value="3">No sé</option>
 								    </select>							     
 								</li>
 								<li class="row">
 									<label for="su_temporizacion" class="control-label tr" key="temporizacion"></label>
 									<select class="form-control" value="0" id="su_temporizacion" name="su_temporizacion">
 									<option value="0"></option>
-								      <option class="tr" key="si" value="1">Si</option>
+								      <option class="tr" key="si" value="1">Sí</option>
 								      <option class="tr" key="no" value="2">No</option>
+								      <option class="tr" key="nose" value="3">No sé</option>
 								    </select>							     
 								</li>
 								<li class="row">

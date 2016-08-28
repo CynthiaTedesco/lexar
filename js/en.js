@@ -266,6 +266,7 @@ aLangKeys['en']['plazo-entrega-obligatorio']='Deadline*';
 aLangKeys['en']['idioma']='Language*';
 aLangKeys['en']['si']='Yes';
 aLangKeys['en']['no']='No';
+aLangKeys['en']['nose']='I don\'t know';
 
 //presupuesto traduccion
 aLangKeys['en']['cantidad-palabras']='Number of words or pages';
@@ -281,7 +282,7 @@ aLangKeys['en']['tipo-interpretacion-2']='Simultaneous';
 aLangKeys['en']['tipo-interpretacion-3']='For businessmen';
 aLangKeys['en']['horas-interpretacion']='Hours of interpretation*';
 aLangKeys['en']['lugar-interpretacion']='Venue*';
-aLangKeys['en']['etiqueta-interpretacion']='Dress code*';
+aLangKeys['en']['etiqueta-interpretacion']='Dress code';
 
 //presupuesto correccion 
 aLangKeys['en']['tipo-correccion'] = 'Type of revision*';
@@ -332,3 +333,4 @@ aLangKeys['en']['radio-social']='/EntredichosOK';
 
 aLangKeys['en']['message-notification']="Your message has been sent.";
 aLangKeys['en']['message-notification-failed']="Your message has not been sent.";
+aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";

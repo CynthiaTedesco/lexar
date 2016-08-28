@@ -849,6 +849,9 @@ h3.cert-title{
 }
 /* END ESPECIALIZACIONES 480 */
 /* PRESUPUESTOS 480 */
+.tooltip1{
+    margin-bottom: 1.5em;
+}
 .fields ul li.row>div.ajax-file-upload-container{
   margin-left: 30%;
 }
@@ -856,7 +859,7 @@ li.upload .fileuploader{
     margin-top: 1em;
     padding-top: 0.8em;
 }
-.fields ul li label {
+.fields ul li label, .tooltip1 {
     float: left;
     width: 10.4em;
     height: 3em;
@@ -864,7 +867,7 @@ li.upload .fileuploader{
 .dp{
     width: 17em;
 }
-.fields ul li.es_publica label{
+.fields ul li.es_publica label, .tooltip1{
     margin-top: 0;
 }
 .fields ul li.upload label{
@@ -882,7 +885,7 @@ li.upload .fileuploader{
 .presupuestos-content.completa, .presupuestos-content.selecciona {
     margin: 4% 10%;
 }
-.fields ul li.row label{
+.fields ul li.row label, .tooltip1{
     width: 30%;
     padding-right: 1em;
 }
@@ -1119,6 +1122,11 @@ section#social div.hidden-sm{
 }
 /* END ESPECIALIZACIONES 750 */
 /* PRESUPUESTOS 750 */
+.tooltip1{
+    width: 38%;
+    margin-top: 0;
+    margin-bottom: initial;
+}
 li.row.upload div.ajax-file-upload-container, 
 .fields ul li.row>div.ajax-file-upload-container {
   margin-left: 38%;
@@ -1163,7 +1171,7 @@ li.row.upload div.ajax-file-upload-container,
     padding: 0.5em 0;
     width: 100%;
 }
-div.selecciona-content div.fields ul li.row label {
+div.selecciona-content div.fields ul li.row label, .tooptip1 {
     float:left;
     height: initial;
     padding: 0.5em 0;
@@ -1416,6 +1424,9 @@ section#social div.col-970-iframe{
 }
 /* END ESPECIALIZACIONES 970 */
 /* PRESUPUESTOS 970 */
+.tooltip1{
+    margin: 0.5em 0;
+}
 li.upload .fileuploader {
     margin-top: 0;
     padding-top: 0;
@@ -1427,7 +1438,7 @@ div.selecciona-content{
     float: left;
     margin-top: -0.1em;
 }
-.fields>ul li.row label, .fields ul li.upload>label:first-child {
+.fields>ul li.row label, .fields ul li.upload>label:first-child, .tooltip1 {
     width: 38%
 }
 .fields ul li.comentarios>label, .fields ul li div.dp input{

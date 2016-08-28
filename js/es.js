@@ -266,6 +266,7 @@ aLangKeys['es']['plazo-entrega-obligatorio']='Plazo de entrega*';
 aLangKeys['es']['idioma']='Idioma*';
 aLangKeys['es']['si']='Sí';
 aLangKeys['es']['no']='No';
+aLangKeys['es']['nose']='No sé';
 
 //presupuesto traduccion
 aLangKeys['es']['cantidad-palabras']='Cantidad de palabras u hojas';
@@ -281,7 +282,7 @@ aLangKeys['es']['tipo-interpretacion-2']='Simultánea';
 aLangKeys['es']['tipo-interpretacion-3']='Acompañamiento';
 aLangKeys['es']['horas-interpretacion']='Horas de interpretación*';
 aLangKeys['es']['lugar-interpretacion']='Lugar de la interpretación*';
-aLangKeys['es']['etiqueta-interpretacion']='Etiqueta';
+aLangKeys['es']['etiqueta-interpretacion']='Código de vestimenta';
 
 //presupuesto correccion 
 aLangKeys['es']['tipo-correccion'] = 'Tipo de corrección*';
@@ -332,3 +333,4 @@ aLangKeys['es']['radio-social']='/EntredichosOK';
 
 aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
 aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
+aLangKeys['es']['tooltip']="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA.";

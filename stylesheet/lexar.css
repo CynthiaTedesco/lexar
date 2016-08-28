@@ -1,3 +1,45 @@
+select.form-control{
+  margin-top: 5px;
+}
+.tooltip1>span{
+  margin-bottom: 5px; 
+}
+.tooltip1:hover{
+  text-decoration: none;
+  color: #333;
+}
+.tooltip1{
+    display: inline;
+    position: relative;
+    color: #333;
+    font-family: Raleway;
+    font-weight: 700;
+
+}
+.tooltip1:hover:after{
+    background: #C0D730;
+    background: rgba(192,215,48,.9);
+    border-radius: 5px;
+    bottom: 3em;
+    color: #fff;
+    content: attr(title);
+    left: 0%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 200px;
+}
+.tooltip1:hover:before{
+    border: solid;
+    border-color: #C0D730 transparent;
+    border-color: rgba(192,215,48,.9) transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 2.6em;
+    content: "";
+    left: 10%;
+    position: absolute;
+    z-index: 99;
+}
 .error-color{
   color:red;
 }
@@ -236,7 +278,7 @@ ul.nav > li:hover a{
 }
 .navbar-nav li a {
   font-weight: bold;
-  color: black;
+  color: #333;
   margin-left: 8%;
   line-height: 200%;
   white-space: nowrap;
@@ -263,7 +305,7 @@ ul.nav > li:hover a{
     border-left-color:#f9f9f9;
 }
 .menu-item-text{
-    color:black;
+    color:#333;
 }
 li.active > a {
     color: #865278;
@@ -297,7 +339,13 @@ li.active > a {
 /* RESPONSIVE ----------------------------------------------- */
 
 @media screen and (min-width:480px){
+.tooltip1:hover:after{
+    bottom: 3.5em;
+}
 
+.tooltip1:hover:before{
+    bottom: 3.1em;
+}
 /* FOOTER 480 */
 .footer-first{
   padding-bottom: 5%;
