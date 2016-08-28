@@ -46,11 +46,16 @@ var translate = function(){
     });
 
     let lang = localStorage.getItem("lang");
+    $('.tooltip1').prop('title', aLangKeys[lang]['tooltip']);
 
     if (lang === 'es'){
-        
+        $('#seguinos').attr("src", "../images/seguinosenlasredes.png");
+        $('.presu-completa').attr("src", "../images/presupuestos/presu-titulo1.png");
+        $('.presu-selecciona').attr("src", '../images/presupuestos/presu-titulo2.png');
     } else if (lang === 'en'){
-
+        $('#seguinos').attr("src", "../images/seguinosenlasredes-eng.png");
+        $('.presu-completa').attr("src", "../images/presupuestos/presu-titulo1-eng.png");
+        $('.presu-selecciona').attr("src", '../images/presupuestos/presu-titulo2-eng.png');
     }
     
     $(".language").removeClass("selected-language");
