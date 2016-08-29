@@ -221,6 +221,7 @@ select.form-control{
   display: -webkit-inline-box;
   width: 100%;
   padding-left: 3%;
+  margin-top: 1em;
 }
 .footer-span{
     margin-bottom: 4%;
@@ -246,7 +247,8 @@ select.form-control{
 #footer-address{
     font-family: 'Raleway-Bold';
     font-size: 1em;
-    margin-left: 2%;
+    margin-left: 1%;
+    padding-left: inherit;
 }
 .qr-sm{
   display: none;
@@ -361,7 +363,7 @@ li.active > a {
   width: 10%;
 }
 #footer-address{
-    margin-left: 1.3%;
+    margin-left: inherit;
 }
 .footer-span{
     margin-bottom: 2%;
