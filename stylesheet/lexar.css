@@ -1,3 +1,9 @@
+.email-link{
+  color:#c0c450;
+}
+.email-link:hover{
+  color:#c0c450;
+}
 div.channel a{
   float: initial;
 }

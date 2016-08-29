@@ -311,7 +311,7 @@ aLangKeys['es']['contacto-mensaje']='Mensaje';
 
 //empleo
 aLangKeys['es']['sumate-queres']='¿QUERÉS SER PARTE DEL EQUIPO DE LEXAR?';
-aLangKeys['es']['sumate-parrafo']='Si sos profesional independiente de la traducción, la interpretación, la corrección, el subtitulado o el doblaje y querés sumarte a <b>Lexar</b> como colaborador externo, envianos tu <i>curriculum vitae</i> a <a href="mailto:sumate@lexar.com.ar">sumate@lexar.com.ar</a>. En el correo, aclaranos cuáles son tus áreas de especialización y el par de idiomas con el que trabajás. También podés completar el formulario que aparece a continuación:';
+aLangKeys['es']['sumate-parrafo']='Si sos profesional independiente de la traducción, la interpretación, la corrección, el subtitulado o el doblaje y querés sumarte a <b>Lexar</b> como colaborador externo, envianos tu <i>curriculum vitae</i> a <a class="email-link" href="mailto:sumate@lexar.com.ar">sumate@lexar.com.ar</a>. En el correo, aclaranos cuáles son tus áreas de especialización y el par de idiomas con el que trabajás. También podés completar el formulario que aparece a continuación:';
 aLangKeys['es']['sumate-telefono']='Teléfono';
 aLangKeys['es']['sumate-mensaje']='Mensaje';
 aLangKeys['es']['sumate-profesion']='Profesión';
@@ -334,3 +334,5 @@ aLangKeys['es']['radio-social']='/EntredichosOK';
 aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
 aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
 aLangKeys['es']['tooltip']="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA.";
+aLangKeys['es']['publicado']="Publicado el";
+aLangKeys['es']['visitas']="visitas";

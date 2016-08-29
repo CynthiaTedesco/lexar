@@ -311,7 +311,7 @@ aLangKeys['en']['contacto-mensaje']='Message';
 
 //empleo
 aLangKeys['en']['sumate-queres']='WOULD YOU LIKE TO BE PART OF LEXAR’S TEAM?';
-aLangKeys['en']['sumate-parrafo']='If you are an independent translation, interpretation, revision, subtitling or dubbing professional and you would like to join <b>Lexar</b> to be an external collaborator, send us your résumé to <a href="mailto:sumate@lexar.com.ar">sumate@lexar.com.ar</a>. In your e-mail tell us what your specialization areas are and the language combination you work with. You can also complete the information below:';
+aLangKeys['en']['sumate-parrafo']='If you are an independent translation, interpretation, revision, subtitling or dubbing professional and you would like to join <b>Lexar</b> to be an external collaborator, send us your résumé to <a class="email-link" href="mailto:sumate@lexar.com.ar">sumate@lexar.com.ar</a>. In your e-mail tell us what your specialization areas are and the language combination you work with. You can also complete the information below:';
 aLangKeys['en']['sumate-telefono']='Telephone number';
 aLangKeys['en']['sumate-mensaje']='Message';
 aLangKeys['en']['sumate-profesion']='Profession';
@@ -334,3 +334,5 @@ aLangKeys['en']['radio-social']='/EntredichosOK';
 aLangKeys['en']['message-notification']="Your message has been sent.";
 aLangKeys['en']['message-notification-failed']="Your message has not been sent.";
 aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";
+aLangKeys['en']['publicado']="Published at";
+aLangKeys['en']['visitas']="views";

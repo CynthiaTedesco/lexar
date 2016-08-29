@@ -22,7 +22,9 @@
 		<script type="text/javaScript" src="https://apis.google.com/js/client.js?onload=init"></script>
 		<script type="text/javascript">
 			$(function() {
-			    $("#menu").load("menu.html");
+			    $("#menu").load("menu.html", function() {
+			        translateBehavior();
+			    });
 			});
 		</script>
 	</head>

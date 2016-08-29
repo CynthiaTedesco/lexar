@@ -14,6 +14,34 @@ $(function() {
     });
 });
 
+var goToContactus = function(){
+    window.location = "contactanos.html";
+}
+
+var goToJoinUs = function(){
+    window.location = "sumate.html";
+}
+
+var goToHome = function(){
+    window.location = "index.html";
+}
+
+var goToServices = function(){
+    window.location = "servicios.html";
+}
+
+var goToSpecializations = function(){
+    window.location = "especializaciones.html";
+}
+
+var goToKnowUs = function(){
+    window.location = "conocenos.html";
+}
+
+var goToQuotes = function(){
+    window.location = "presupuestos.html";
+}
+
 $(function() {
     translate();
 });

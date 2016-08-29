@@ -11,7 +11,7 @@ function executeVideoRequest(ids) {
     	var result = response.result;
     	$('div .youtube-container').html("");
     	$.each(result.items, function(index,item){
-    		console.log(item);
+    		//console.log(item);
     		$.get('tpl/youtube-template.html', function(data){
 				$('div .youtube-container').
 					append(tplawesome(data, 
@@ -20,9 +20,9 @@ function executeVideoRequest(ids) {
 						  'videoid':item.id,
 						  'channelTitle':item.snippet.channelTitle,
                           'channelid':item.snippet.channelId,
-						  'publishedAt': formatDate(item.snippet.publishedAt),
+						  'publishedAt': aLangKeys[localStorage.getItem("lang")]['publicado'] + ' ' + formatDate(item.snippet.publishedAt),
 						  'description':item.snippet.description.substring(0,100)+'...',
-						  'viewCount': item.statistics.viewCount
+						  'viewCount': item.statistics.viewCount + ' ' + aLangKeys[localStorage.getItem("lang")]['visitas']
 						}]));
     		});
     	});
