@@ -3,7 +3,7 @@ function executeVideoRequest(ids) {
     var request = gapi.client.youtube.videos.list({
         part: 'snippet,statistics,contentDetails',
         id: ids,
-        fields: 'items(contentDetails/duration,id,snippet(channelTitle,description,publishedAt,title),statistics/viewCount)',
+        fields: 'items(contentDetails/duration,id,snippet(channelTitle,channelId,description,publishedAt,title),statistics/viewCount)',
         maxResults: 5
     });
     //execute the request
@@ -19,6 +19,7 @@ function executeVideoRequest(ids) {
 						  'duration':formatDuration(item.contentDetails.duration),
 						  'videoid':item.id,
 						  'channelTitle':item.snippet.channelTitle,
+                          'channelid':item.snippet.channelId,
 						  'publishedAt': formatDate(item.snippet.publishedAt),
 						  'description':item.snippet.description.substring(0,100)+'...',
 						  'viewCount': item.statistics.viewCount

@@ -4,8 +4,16 @@
 .carousel-inner>.item>img{
 	height: 300px;
 }
+.carousel-caption>img{
+    margin-bottom: 5%;
+}
 .carousel-caption{
-	height: 100%;
+    height: 80%;
+    left:10%;
+    right:10%;
+}
+.carousel-caption p span{
+    font-size:90%;
 }
 .carousel-caption img{
 	max-width: 200px;
@@ -738,6 +746,16 @@ div.row.upload{
 @media screen and (min-width:480px){
 /* HOME 480 */
 /* slideshow */
+.carousel-caption>img{
+    margin-bottom: inital;
+}
+.carousel-caption {
+    left:15%;
+    right:15%;
+}
+.carousel-caption p span{
+    font-size:100%;
+}
 .carousel-inner>.item>img{
     height: 350px;
 }

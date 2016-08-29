@@ -33,7 +33,7 @@ $(function() {
 
 		if (esTraduccion()){
 
-			let publica = ['Si', 'No'];
+			let publica = ['Si', 'No', 'No sé'];
 
 			if(isInvalid('#presupuestos-form')){
 				return;
@@ -122,7 +122,7 @@ $(function() {
 		if (esSubtitulado()){
 
 			let tipos = ['Doblaje', 'Subtitulado'];
-			let sino = ['','Si', 'No'];
+			let sino = ['','Si', 'No', 'No sé'];
 			
 			if(isInvalid('#presupuestos-form')){
 				return;

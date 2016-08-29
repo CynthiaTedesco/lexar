@@ -15,7 +15,7 @@ $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 $mail->CharSet = 'UTF-8';
 $mail->From = 'lexartd@gmail.com';
 $mail->FromName = 'Lexar Web';
-$mail->AddAddress('lexartd@gmail.com', 'Cyn'); // Name is optional
+$mail->AddAddress('sumate@lexar.com.ar', 'Lexar'); // Name is optional
 $mail->IsHTML(true); // Set email format to HTML
 
 $mail->WordWrap = 90; // Set word wrap to 90 characters
@@ -41,8 +41,7 @@ $comment = getPostedValue($_POST, 'mensaje');
 $subject = $_POST['subject'];
 
 $message = '<html><body style="line-height: 1.5em;">';
-$message .= '<img src="cid:logo" alt="Lexar Web" />';
-$message .= '<p>Se ha recibido un nuevo mensaje de alguien que quiere sumarse al equipo de Lexar</p>';
+$message .= '<p>Se ha recibido un nuevo mensaje de alguien que quiere sumarse al equipo de Lexar.</p>';
 $message .= '<p>Información de contacto:</p>';
 $message .= '<ul>';
 $message .= "<li><span><strong>Name:</strong> </span><span>" . makeLabel($name) . "</span></li>";
@@ -58,6 +57,7 @@ $message .= $especializacion ? "<li><span><strong>Áreas de especialización:</s
 $message .= $idiomas ? "<li><span><strong>Idiomas de trabajo:</strong> </span><span>" . makeLabel($idiomas) . "</span></li>" : "";
 $message .= $comment ? "<li><span><strong>Mensaje:</strong> </span><span>" . makeLabel($comment) . "</span></li>" : "";
 $message .="</ul>";
+$message .= '<br/><br/><img src="cid:logo" alt="Lexar Web" />';
 $message .= '</body></html>';
 
 $mail->Subject = $subject;

@@ -15,7 +15,7 @@ $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 $mail->CharSet = 'UTF-8';
 $mail->From = 'lexartd@gmail.com';
 $mail->FromName = 'Lexar Web';
-$mail->AddAddress('lexartd@gmail.com', 'Cyn'); // Name is optional
+$mail->AddAddress('hola@lexar.com.ar', 'Lexar'); // Name is optional
 $mail->IsHTML(true); // Set email format to HTML
 
 $mail->AddEmbeddedImage('../images/header/header-logo-lexar.png', 'logo');
@@ -28,8 +28,7 @@ $comment = $_POST['mensaje'];
 $subject = $_POST['subject'];
 
 $message = '<html><body style="line-height: 1.5em;">';
-$message .= '<img src="cid:logo" alt="Lexar Web" />';
-$message .= '<p>Se ha recibido un nuevo mensaje desde la Web de Lexar</p>';
+$message .= '<p>Se ha recibido un nuevo mensaje desde la Web de Lexar.</p>';
 $message .= '<p>Información de contacto:</p>';
 $message .= '<ul>';
 $message .= "<li><span><strong>Nombre:</strong> </span><span>" . makeLabel($name) . "</span></li>";
@@ -40,6 +39,7 @@ $message .= '</ul>';
 $message .= '<strong><span>Mensaje:</span></strong>';
 $message .= '<ul style="list-style:none"><li><span>' . makeLabel($comment) . '</span></li></ul>';
 
+$message .= '<br/><br/><img src="cid:logo" alt="Lexar Web" />';
 $message .= '</body></html>';
 
 $mail->Subject = $subject;
