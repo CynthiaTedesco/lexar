@@ -164,7 +164,10 @@ $(function() {
 				$("button.send-button").button('reset');
 				clearQuotesFields();
 				if (hasError(e)){
-					$("div.error-message").removeClass('hidden');	
+					$("div.error-message").removeClass('hidden');
+					if (e.indexOf("security issue")){
+						$("div.error-message2").removeClass('hidden');
+					}
 				} else {
 					$("div.success-message").removeClass('hidden');	
 				}

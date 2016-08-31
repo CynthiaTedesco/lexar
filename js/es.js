@@ -333,6 +333,7 @@ aLangKeys['es']['radio-social']='/EntredichosOK';
 
 aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
 aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
+aLangKeys['es']['message-notification-security']="El o los archivos que desea enviar son potencialmente peligrosos.";
 aLangKeys['es']['tooltip']="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA.";
 aLangKeys['es']['publicado']="Publicado el";
 aLangKeys['es']['visitas']="visitas";
