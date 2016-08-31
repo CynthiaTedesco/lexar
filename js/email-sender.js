@@ -261,6 +261,9 @@ $(function() {
 				clearTeamFields();
 				if (hasError(e)){
 					$("div.error-message-sumate").removeClass('hidden');	
+					if (e.indexOf("security issue")){
+						$("div.error-message2").removeClass('hidden');
+					}
 				} else {
 					$("div.success-message-sumate").removeClass('hidden');	
 				}

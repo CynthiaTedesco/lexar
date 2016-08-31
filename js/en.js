@@ -333,7 +333,7 @@ aLangKeys['en']['radio-social']='/EntredichosOK';
 
 aLangKeys['en']['message-notification']="Your message has been sent.";
 aLangKeys['en']['message-notification-failed']="Your message has not been sent.";
-aLangKeys['es']['message-notification-security']="The file you are trying to send is potentially dangerous.";
+aLangKeys['en']['message-notification-security']="The file you are trying to send is potentially dangerous.";
 aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";
 aLangKeys['en']['publicado']="Published at";
 aLangKeys['en']['visitas']="views";
