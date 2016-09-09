@@ -1,5 +1,3 @@
-"use strict"
-
 var esTraduccion = function () {
 	return $('.selecciona-menu div.active').attr('id') === 'menu-traduccion';
 }
@@ -33,7 +31,7 @@ $(function() {
 
 		if (esTraduccion()){
 
-			let publica = ['Si', 'No', 'No sé'];
+			var publica = ['Si', 'No', 'No sé'];
 
 			if(isInvalid('#presupuestos-form')){
 				return;
@@ -94,7 +92,7 @@ $(function() {
 		}
 		if (esCorreccion()){
 
-			let tipos = ['De estilo','Ortográfica, gramatical y sintáctica','Ortotipográfica','De traducciones'];
+			var tipos = ['De estilo','Ortográfica, gramatical y sintáctica','Ortotipográfica','De traducciones'];
 
 			if(isInvalid('#presupuestos-form')){
 				return;
@@ -121,8 +119,8 @@ $(function() {
 		}
 		if (esSubtitulado()){
 
-			let tipos = ['Doblaje', 'Subtitulado'];
-			let sino = ['','Si', 'No', 'No sé'];
+			var tipos = ['Doblaje', 'Subtitulado'];
+			var sino = ['','Si', 'No', 'No sé'];
 			
 			if(isInvalid('#presupuestos-form')){
 				return;
