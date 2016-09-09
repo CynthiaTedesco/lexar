@@ -1162,9 +1162,6 @@ li.row.upload div.ajax-file-upload-container,
 .presupuestos-content.selecciona{
     border-left: solid 1px #DDDDDD;
 }   
-.presupuestos-content.selecciona>img{
-    position: absolute;
-}
 .presupuestos-content.first {
     margin-bottom: 2%;
 }
@@ -1178,7 +1175,7 @@ li.row.upload div.ajax-file-upload-container,
     top: 4em;
 }
 .presupuestos-content div.selecciona-menu{
-    margin-top: 14em;
+    margin-top: 3.5em;
 }
 .presupuestos-content.completa div.fields{
     margin-top: 15%;

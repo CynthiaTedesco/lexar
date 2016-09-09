@@ -1,3 +1,12 @@
+
+$(function() {
+	if ($('.ajax-file-upload-abort:visible').length > 0){
+		$('.custom-delete').hide();		
+	} else {
+		$('.custom-delete').show();
+	}
+});
+
 $(document).ready(function() {
 
 	var getFileUploaderObject = function() {
@@ -29,7 +38,7 @@ $(document).ready(function() {
 		            this.cancel = $("<div>X</div>").appendTo(this.statusbar).hide();
 		            this.done = $("<div>" + s.doneStr + "</div>").appendTo(this.statusbar).hide();
 		            this.download = $("<div>" + s.downloadStr + "</div>").appendTo(this.statusbar).hide();
-		            this.del = $("<div>X</div>").appendTo(this.statusbar);
+		            this.del = $("<div>X</div>").appendTo(this.statusbar).hide();
 		            
 		            this.abort.addClass("custom-red");
 		            this.done.addClass("custom-green");
