@@ -527,6 +527,8 @@ li.active > a {
 .col-750-4{
   width: 33%;
   float: left;
+  height: 6em;
+  margin-bottom: 2em;
 }
 .col-750-5{
   width: 40%;
@@ -549,8 +551,9 @@ li.active > a {
 }
 .header-ico-idioma{
   position: absolute;
+  bottom: 10px;
   right: 140px;
-  margin-top: 10%;
+  /*margin-top: 10%;*/
 }
 /* END HEADER 750 */
 

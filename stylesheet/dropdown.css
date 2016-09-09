@@ -180,9 +180,11 @@
 @media screen and (min-width:750px){
 /* HEADER 750 */
 .language-dropdown{
-  top: 25px;
+  /*top: 25px;*/
+  bottom: 10px;
   right: 5%;
   width: 120px;
+  margin: initial;
   
 }
 .language-dropdown:after{
