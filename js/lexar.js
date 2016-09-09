@@ -72,23 +72,23 @@ var translate = function(){
         $(this).html(aLangKeys[localStorage.getItem("lang")][$(this).attr('key')]);
     });
 
-    let lang = localStorage.getItem("lang");
-    $('.tooltip1').prop('title', aLangKeys[lang]['tooltip']);
+    var langg = localStorage.getItem("lang");
+    $('.tooltip1').prop('title', aLangKeys[langg]['tooltip']);
 
-    if (lang === 'es'){
+    if (langg === 'es'){
         $('#seguinos').attr("src", "../images/seguinosenlasredes.png");
         $('.presu-completa').attr("src", "../images/presupuestos/presu-titulo1.png");
         $('.presu-selecciona').attr("src", '../images/presupuestos/presu-titulo2.png');
-    } else if (lang === 'en'){
+    } else if (langg === 'en'){
         $('#seguinos').attr("src", "../images/seguinosenlasredes-eng.png");
         $('.presu-completa').attr("src", "../images/presupuestos/presu-titulo1-eng.png");
         $('.presu-selecciona').attr("src", '../images/presupuestos/presu-titulo2-eng.png');
     }
     
     $(".language").removeClass("selected-language");
-    $("ul.nav li#"+lang).addClass("selected-language");
+    $("ul.nav li#"+langg).addClass("selected-language");
 
-    $(".hidden-en").css('display', (lang === 'en') ? 'none' : 'block');
+    $(".hidden-en").css('display', (langg === 'en') ? 'none' : 'block');
 };
 
 var translateBehavior = function(){
@@ -96,8 +96,8 @@ var translateBehavior = function(){
     translate();
 
     $('li.language').click(function(e) {
-        let lang = $(this).attr('id'); // obtain language id
-        localStorage.setItem("lang", lang);
+        var lang2 = $(this).attr('id'); // obtain language id
+        localStorage.setItem("lang", lang2);
 
         translate();
         onChooseLanguage(e);
@@ -134,12 +134,12 @@ var headerBehavior = function() {
     
     $('#ddLang').click(function(){
         if ($('.language-dropdown').hasClass('opened')){
-            let newSelected = $(this).text();
-            let lang = newSelected.substring(0,2).toLowerCase();
-            localStorage.setItem("lang", lang);
+            var newSelected = $(this).text();
+            var lang3 = newSelected.substring(0,2).toLowerCase();
+            localStorage.setItem("lang", lang3);
             translate();
 
-            let previousSelected = $('#ddCurrentLang').text();
+            var previousSelected = $('#ddCurrentLang').text();
             $(this).text(previousSelected)
             $('#ddCurrentLang').text(newSelected);
         }
