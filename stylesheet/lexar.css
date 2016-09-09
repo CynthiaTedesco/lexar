@@ -153,6 +153,7 @@ select.form-control{
 .header-social{
   box-sizing:border-box;
   display: inline-flex;
+  float: left;
   margin-right: 1%;
 }
 .header-social img{
@@ -441,6 +442,7 @@ li.active > a {
 }
 .footer-social-col{
   width: 15%;
+  float: left;
 }
 .footer-span{
     margin-bottom: 1%;
@@ -477,6 +479,7 @@ li.active > a {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  float: left;
 }
 .footer-logo-div img{
   margin-top: 15%;
@@ -490,6 +493,7 @@ li.active > a {
   padding-bottom: 2em;
   border-left: 1px solid;
   padding-left: 0;
+  float: left;
 }
 #footer-address{
   padding-top: 11%;
