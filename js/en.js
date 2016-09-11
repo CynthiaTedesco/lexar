@@ -11,7 +11,7 @@ aLangKeys['en']['entredichos']='ENTREDICHOS';
 
 //home
 aLangKeys['en']['our-certifications']='OUR CERTIFICATIONS';
-aLangKeys['en']['slideshow-message-1']='Lexar aims to give a differente experience, an innovative and customized approach to the client\'s needs, and a huge range of high-quality services';
+aLangKeys['en']['slideshow-message-1']='Lexar aims to give a different experience, an innovative and customized approach to the client\'s needs, and a huge range of high-quality services';
 aLangKeys['en']['slideshow-message-2']="For us training, knowledge and quality are essential to satisfy our clients’ needs as they deserve.";
 aLangKeys['en']['slideshow-message-3']="In Lexar, we work with passion and effort so that the linguistic barriers you may encounter in your way to success can become communication bridges.";
 
@@ -23,8 +23,8 @@ aLangKeys['en']['forma-de-trabajo']='OUR WAY OF WORKING';
 aLangKeys['en']['acerca-de-title']='About Lexar';
 aLangKeys['en']['acerca-de-1']='Lexar is a different and innovative initiative that arose a few years ago from a personal project that intended to satisfy a specific demand in terms of linguistic services. ';
 aLangKeys['en']['acerca-de-2']='At that moment, my idea was to provide the world with a new concept: to trust in a company with well-defined values, a company that pursues the real meaning of the words we use to communicate with each other and that could transmit such meaning precisely and effectively, a company that believes that knowledge and continuous training are essential, a company that treats its clients in a different manner so that they could feel special and be sure that their affairs are in good hands, a company whose main concern is the well-being of its clients and their particular needs, and a company that above all makes a significant contribution to the professional community it belongs to. ';
-aLangKeys['en']['acerca-de-3']='Little by little, with a lot of effort and dedication, and without losing the goal, I managed to turn what was once only a dream in something real and tangible: in that way, I created Lexar, a dynamic, responsible, trustworthy, efficient and professional company that aims to give a different experience, an innovative and customized approach to the client’s needs, and a huge range of high-quality services.';
-aLangKeys['en']['acerca-de-4']='Lexar is a group of professionals with vast experience in translation, interpretation, revision, subtitling and dubbing that was trained and specialized throughout these years in specific areas of the market to be able to provide excellent linguistic solutions and to be real communication bridges.';
+aLangKeys['en']['acerca-de-3']='Little by little, with a lot of effort and dedication, and without losing my goal, I managed to turn what was once only a dream in something real and tangible: in that way, I created Lexar, a dynamic, responsible, trustworthy, efficient and professional company that aims to give a different experience, an innovative and customized approach to the client’s needs, and a huge range of high-quality services.';
+aLangKeys['en']['acerca-de-4']='Lexar is formed by a group of professionals with vast experience in translation, interpretation, revision, subtitling and dubbing that was trained and specialized throughout these years in specific areas of the market to be able to provide excellent linguistic solutions and to be real communication bridges.';
 aLangKeys['en']['acerca-de-5']='We look for a solution to each of the problems the client poses as we work very hard to satisfy his needs because we believe that each case is unique and each client is different.';
 aLangKeys['en']['acerca-de-6']='For us training, knowledge and quality are essential to satisfy our clients’ needs as they deserve, therefore we are always looking for new courses, seminars, conferences, methods, technologies, and ideas that will allow us to achieve excellence. In our viewpoint, continuous improvement is not only a concept we try to implement, but also our lifestyle and a way of working.';
 aLangKeys['en']['acerca-de-bienvenida']='Welcome to Lexar, we hope that your experience with us can be satisfying, special and unforgettable. ';
@@ -40,7 +40,7 @@ aLangKeys['en']['trayectoria-2']='When I decided to create Lexar, I looked for e
 aLangKeys['en']['trayectoria-3']='Currently, we have more than ten years of experience in translation, interpretation, revision, subtitling and subbing. Besides, we focused and trained in very specific market areas because in Lexar we believe that specialization is critical to provide a customized high-quality service.';
 aLangKeys['en']['trayectoria-4']='Our areas of specialization are: legal sciences, economics and finance, political science and political economy, dried fruits and agriculture, real estate and property sector, information technology (IT) and new technologies, and human resources. In any case, we work with excellent colleagues from other areas of specialization and other languages (Italian, Portuguese, French, German, Chinese, Japanese, Russian, and Hebrew, among others) that help us when a client requests a service that is not within our area of competence.';
 aLangKeys['en']['trayectoria-5']='Moreover, in Lexar we believe in continuous improvement, therefore we participate in courses, seminars, debates, conferences and meetings that contribute to our constant training and to be updated and informed.';
-aLangKeys['en']['trayectoria-6']='Besides, we contribute with the professional community we belong to (one of our main values) because we believe that together we can make people respect and know our work, and in that way we will be able to achieve the level of prestige we deserve. Consequently, I work as an Expert for the Judiciary and I am a member of the Association of Certified Translators of the City of Buenos Aires, where I actively participate in the Culture Committee (I am the Coordinator) and in the Spanish Committee (I am the presenter of its radio program <i>“Entredichos”</i>).';
+aLangKeys['en']['trayectoria-6']='Besides, we contribute with the professional community we belong to (one of our main values) because we believe that together we can make people respect and know our work, and in that way we will be able to achieve the level of prestige we deserve. Consequently, I work as an Expert for the Judiciary and I am a member of the Association of Certified Translators of the City of Buenos Aires, where I actively participate in the Culture Committee (I am the Coordinator) and in the Spanish Committee (I am the presenter of its broadcast <i>“Entredichos”</i>).';
 aLangKeys['en']['trayectoria-7']='Lexar helped countless companies, national and international bodies, and individuals to find the linguistic solutions for their specific needs that allowed them to finish their projects or to be successful.';
 aLangKeys['en']['trayectoria-8']='Lexar is the perfect ally for our clients to fulfill their dreams or to complete lifelong projects. We are here so that linguistic barriers do not pose a problem for you; we were here to create the communication bridges that you need to make all your dreams come true.';
 
@@ -78,7 +78,7 @@ aLangKeys['en']['servicios-interpretacion-titulo']='Interpretation';
 aLangKeys['en']['servicios-interpretacion-menu']='Interpretation';
 aLangKeys['en']['servicios-interpretacion-1']='In the strict sense of the word, to interpret implies orally explaining or stating something from one language to another. The main goal is to allow communication among individuals that speak different languages. Below we explain the different types of interpretation services we provide. We suggest our clients asking us to determine which type is the best one for their linguistic needs.';
 aLangKeys['en']['servicios-interpretacion-consecutiva-titulo']='Consecutive Interpreting';
-aLangKeys['en']['servicios-interpretacion-consecutiva-1']='In this type of interpreting, one person speaks in a certain language and then allows the interpreter to properly render the message in the other language. The interpreter can do this after every phrase, for which the speaker must make short pauses, or after the complete speech of the speaker, for which the interpreter must take notes due to the length of the speech. Choosing one option or other will depend on the context and the specific needs of the client.';
+aLangKeys['en']['servicios-interpretacion-consecutiva-1']='In this type of interpreting, one person speaks in a certain language and then allows the interpreter to properly render the message in the other language. The interpreter can do this after every phrase, for which the speaker must make short pauses, or after the complete speech of the speaker, for which the interpreter must take notes due to the length of the speech. Choosing one option or the other will depend on the context and the specific needs of the client.';
 aLangKeys['en']['servicios-interpretacion-consecutiva-2']='Lexar recommends using consecutive interpreting in telephone conferences, press conferences, trials, weddings (civil and religious ceremonies), interviews, speeches, presentations, papers, negotiations, and business meetings, among others.';
 aLangKeys['en']['servicios-interpretacion-simultanea-titulo']='Simultaneous Interpreting';
 aLangKeys['en']['servicios-interpretacion-simultanea-1']='In this type of interpreting, the interpreter renders the message from one language to another while the person speaks, which allows for fluid and fast multilingual conferences.';
@@ -143,7 +143,7 @@ aLangKeys['en']['especializaciones-juridicas-22']='Other';
 aLangKeys['en']['especializaciones-finanzas']='Economics and Finance';
 aLangKeys['en']['especializaciones-finanzas-1']='Business Documents';
 aLangKeys['en']['especializaciones-finanzas-2']='Contracts';
-aLangKeys['en']['especializaciones-finanzas-3']='Commercial Proposal';
+aLangKeys['en']['especializaciones-finanzas-3']='Commercial Proposals';
 aLangKeys['en']['especializaciones-finanzas-4']='Insurance Policies';
 aLangKeys['en']['especializaciones-finanzas-5']='Affidavits';
 aLangKeys['en']['especializaciones-finanzas-6']='Accounting Statements';
@@ -270,7 +270,7 @@ aLangKeys['en']['nose']='I don\'t know';
 
 //presupuesto traduccion
 aLangKeys['en']['cantidad-palabras']='Number of words or pages';
-aLangKeys['en']['formato-entrega']='Format';
+aLangKeys['en']['formato-entrega']='Document format';
 aLangKeys['en']['es-publica']='Is it a certified translation or a non-certified translation?*';
 aLangKeys['en']['subida']='Upload the file to be translated';
 
@@ -320,15 +320,15 @@ aLangKeys['en']['sumate-especializacion']='Areas of specialization';
 aLangKeys['en']['sumate-cv']='Upload résumé';
 
 //radio
-aLangKeys['en']['escucha']='LISTEN <i>ENTREDICHOS</i>';
+aLangKeys['en']['escucha']='LISTEN ENTREDICHOS';
 aLangKeys['en']['radio-1']='The official broadcast of the Association of Certified Translators of the City of Buenos Aires.';
 aLangKeys['en']['radio-2']='A broadcast that spreads what a translator does and the correct usage of the Spanish language.';
 aLangKeys['en']['dia']='Tuesday';
 aLangKeys['en']['hora']='7:00PM-8:00PM';
 aLangKeys['en']['que-radio']='on <b>FM Radio Palermo 93.9 </b>';
 aLangKeys['en']['tambien-en']='Also on';
-aLangKeys['en']['conducen']='Presented by:';
-aLangKeys['en']['quienes-conducen']='Valeria Cardozo, Virginia Rubiolo y Damián Santilli.';
+aLangKeys['en']['conducen']='presented by:';
+aLangKeys['en']['quienes-conducen']='Valeria Cardozo, Virginia Rubiolo and Damián Santilli';
 aLangKeys['en']['radio-social']='/EntredichosOK';
 
 aLangKeys['en']['message-notification']="Your message has been sent.";
@@ -337,3 +337,5 @@ aLangKeys['en']['message-notification-security']="The file you are trying to sen
 aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";
 aLangKeys['en']['publicado']="Published at";
 aLangKeys['en']['visitas']="views";
+
+aLangKeys['en']['abortar']="Abort";

@@ -14,7 +14,7 @@ $(document).ready(function() {
 			url:"php/upload.php",
 			multiple:true,
 			dragDrop:false,
-			uploadStr:getPresupuestoUploadString(),
+			uploadStr:getString('buscar-archivo'),
 			showDelete: true,
 			fileName:"myfile",
 			deleteCallback: function (data, pd) {
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		            this.filename = $("<div class='ajax-file-upload-filename'></div>").appendTo(this.statusbar);
 		            this.progressDiv = $("<div class='ajax-file-upload-progress'>").appendTo(this.statusbar).hide();
 		            this.progressbar = $("<div class='ajax-file-upload-bar'></div>").appendTo(this.progressDiv);
-		            this.abort = $("<div>" + s.abortStr + "</div>").appendTo(this.statusbar).hide();
+		            this.abort = $("<div>" + getString('abortar') + "</div>").appendTo(this.statusbar).hide();
 		            this.cancel = $("<div>X</div>").appendTo(this.statusbar).hide();
 		            this.done = $("<div>" + s.doneStr + "</div>").appendTo(this.statusbar).hide();
 		            this.download = $("<div>" + s.downloadStr + "</div>").appendTo(this.statusbar).hide();

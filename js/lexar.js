@@ -1,5 +1,93 @@
-
 var alreadyTranslated = false;
+
+var selectLetsKnowUsTab = function(){
+    $('.conocenos-content').addClass('hidden');
+    $('.conocenos-menu div').removeClass('active');
+
+    switch(localStorage.getItem("letsKnowUsTab")){
+        case("1"):
+            $('.conocenos-menu div:nth-child(1)').addClass('active');
+            $('.conocenos-content.acerca-de').removeClass('hidden');
+            break;
+        case("2"):
+            $('.conocenos-menu div:nth-child(2)').addClass('active');
+            $('.conocenos-content.trayectoria').removeClass('hidden');
+            break;
+        case("3"):
+            $('.conocenos-menu div:nth-child(3)').addClass('active');
+            $('.conocenos-content.forma-de-trabajo').removeClass('hidden');
+            break;
+        default:
+            $('.conocenos-menu div:nth-child(1)').addClass('active');
+            $('.conocenos-content.acerca-de').removeClass('hidden');
+    }
+}
+
+var selectServicesTab = function(){
+    $('.servicios-content').addClass('hidden');
+    $('.servicios-menu div').removeClass('active');
+
+    switch(localStorage.getItem("servicesTab")){
+        case("1"):
+            $('.servicios-menu div:nth-child(1)').addClass('active');
+            $('.servicios-main-content div:nth-child(1)').removeClass('hidden');
+            break;
+        case("2"):
+            $('.servicios-menu div:nth-child(3)').addClass('active');
+            $('.servicios-main-content div:nth-child(2)').removeClass('hidden');
+            break;
+        case("3"):
+            $('.servicios-menu div:nth-child(2)').addClass('active');
+            $('.servicios-main-content div:nth-child(3)').removeClass('hidden');
+            break;
+        case("4"):
+            $('.servicios-menu div:nth-child(4)').addClass('active');
+            $('.servicios-main-content div:nth-child(4)').removeClass('hidden');
+            break;
+        default:
+            $('.servicios-menu div:nth-child(1)').addClass('active');
+            $('.servicios-main-content div:nth-child(1)').removeClass('hidden');
+    }
+}
+
+var selectSpecialityTab = function(){
+    $('.especializaciones-items').addClass('hidden');
+    $('.especializaciones-menu div').removeClass('active');
+
+    switch(localStorage.getItem("specialityTab")){
+        case("1"):
+            $('.especializaciones-menu div:nth-child(1)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("2"):
+            $('.especializaciones-menu div:nth-child(2)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("3"):
+            $('.especializaciones-menu div:nth-child(3)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("4"):
+            $('.especializaciones-menu div:nth-child(4)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("5"):
+            $('.especializaciones-menu div:nth-child(5)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("6"):
+            $('.especializaciones-menu div:nth-child(6)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;
+        case("7"):
+            $('.especializaciones-menu div:nth-child(7)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+            break;            
+        default:
+            $('.especializaciones-menu div:nth-child(1)').addClass('active');
+            $('.especializaciones-content ul:nth-child(1)').removeClass('hidden');
+    }
+}
 
 $(function() {
     $("#header").load("header.html", function() {
@@ -228,12 +316,15 @@ $(function() {
 
             switch(this.attributes.key.value){
                 case('acerca-de'):
+                    localStorage.setItem("letsKnowUsTab", 1);
                     $('.conocenos-content.acerca-de').removeClass('hidden');
                     break;
                 case('trayectoria'):
+                    localStorage.setItem("letsKnowUsTab", 2);
                     $('.conocenos-content.trayectoria').removeClass('hidden');
                     break;
                 case('forma-de-trabajo'):
+                    localStorage.setItem("letsKnowUsTab", 3);
                     $('.conocenos-content.forma-de-trabajo').removeClass('hidden');
                     break;
             }
@@ -251,15 +342,19 @@ $(function() {
 
             switch(this.firstElementChild.attributes.key.value){
                 case('servicios-traduccion-menu'):
+                    localStorage.setItem("servicesTab", 1);
                     $('.servicios-content.traduccion').removeClass('hidden');
                     break;
                 case('servicios-correccion-menu'):
+                    localStorage.setItem("servicesTab", 2);
                     $('.servicios-content.correccion').removeClass('hidden');
                     break;
                 case('servicios-interpretacion-menu'):
+                    localStorage.setItem("servicesTab", 3);
                     $('.servicios-content.interpretacion').removeClass('hidden');
                     break;
                 case('servicios-subtitulado-menu'):
+                    localStorage.setItem("servicesTab", 4);
                     $('.servicios-content.subtitulado').removeClass('hidden');
                     break;
             }
@@ -277,24 +372,31 @@ $(function() {
 
             switch(this.firstElementChild.attributes.key.value){
                 case('especializaciones-juridicas'):
+                    localStorage.setItem("specialityTab", 1);
                     $('.especializaciones-content ul.juridicas').removeClass('hidden');
                     break;
                 case('especializaciones-finanzas'):
+                    localStorage.setItem("specialityTab", 2);
                     $('.especializaciones-content ul.finanzas').removeClass('hidden');
                     break;
                 case('especializaciones-politica'):
+                    localStorage.setItem("specialityTab", 3);
                     $('.especializaciones-content ul.politica').removeClass('hidden');
                     break;
                 case('especializaciones-frutos'):
+                    localStorage.setItem("specialityTab", 4);
                     $('.especializaciones-content ul.frutos').removeClass('hidden');
                     break;
                 case('especializaciones-inmobiliario'):
+                    localStorage.setItem("specialityTab", 5);
                     $('.especializaciones-content ul.inmobiliario').removeClass('hidden');
                     break;
                 case('especializaciones-it'):
+                    localStorage.setItem("specialityTab", 6);
                     $('.especializaciones-content ul.it').removeClass('hidden');
                     break;
                 case('especializaciones-rrhh'):
+                    localStorage.setItem("specialityTab", 7);
                     $('.especializaciones-content ul.rrhh').removeClass('hidden');
                     break;
             }
@@ -310,7 +412,7 @@ var hasError = function(e){
 }
 
 var clearQuotesFields = function(){
-    $('#presupuestos-form input, #presupuestos-form textarea').val('');
+    $('.presupuestos-content.selecciona input, .presupuestos-content.selecciona textarea').val('');
     $.post("php/clearUploads.php");
     $('.file-upload-statusbar').hide();
 };

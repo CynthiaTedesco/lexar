@@ -337,3 +337,5 @@ aLangKeys['es']['message-notification-security']="El o los archivos que desea en
 aLangKeys['es']['tooltip']="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA.";
 aLangKeys['es']['publicado']="Publicado el";
 aLangKeys['es']['visitas']="visitas";
+
+aLangKeys['es']['abortar']="Abortar";

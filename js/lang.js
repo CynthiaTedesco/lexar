@@ -3,10 +3,10 @@ var aLangKeys=new Array();
 aLangKeys['en']=new Array();
 aLangKeys['es']=new Array();
 
-var getPresupuestoUploadString = function(){
+var getString = function(index){
 	if (aLangKeys[localStorage.getItem("lang")]){
-		return aLangKeys[localStorage.getItem("lang")]['buscar-archivo'];
+		return aLangKeys[localStorage.getItem("lang")][index];
 	} else {
-		return aLangKeys["es"]['buscar-archivo'];
+		return aLangKeys["es"][index];
 	}
 }

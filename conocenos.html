@@ -23,6 +23,9 @@
 			        menuBehavior('#menu-conocenos');
 			    });
 			});
+			$(function() {
+		        selectLetsKnowUsTab();
+			});
 		</script>
 	</head>
 	<body>
@@ -87,7 +90,7 @@
 				<div class="footer">
 					<p class="tr hidden-xs hidden-sm" key="trayectoria-footer"></p>
 					<div>
-						<div class="quotes-button link"><a class="tr" key="solicita-presupuesto" href="/presupuestos.html"></a></div>
+						<div class="quotes-button link" onclick="goToQuotes()"><a class="tr" key="solicita-presupuesto" href="presupuestos.html"></a></div>
 						<img class="quotes-img" src="images/conocenos/muñequito-violeta.png" alt="muniequito violeta">	
 					</div>
 				</div>
@@ -110,7 +113,7 @@
 				</div>
 				<div class="footer">
 					<p class="tr hidden-xs hidden-sm" key="forma-de-trabajo-footer"></p>
-					<div class="quotes-button link"><a class="tr" key="solicita-presupuesto" href="/presupuestos.html"></a></div>
+					<div class="quotes-button link" onclick="goToQuotes()"><a class="tr" key="solicita-presupuesto" href="presupuestos.html"></a></div>
 					<img class="quotes-img" src="images/conocenos/muñequito-violeta.png" alt="muniequito violeta">	
 				</div>
 			</div>
