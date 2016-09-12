@@ -18,7 +18,7 @@
 .carousel-caption img{
 	max-width: 200px;
 	position: relative;
-	top: 50%;
+	/*top: 50%;*/
 }
 /*end slideshow mobile */
 /* certifications mobile */
@@ -563,6 +563,13 @@ div.date input.form-control{
 }
 /* END PRESUPUESTOS MOBILE */
 /* CONTACTANOS MOBILE */
+.contacto-content .fields div.row input, .contacto-content .fields div.row textarea{
+    width: 100%;
+    padding: 0;
+}
+.contacto-content div.row>div.row.mensaje div{
+    padding:0 15px;
+}
 .col-sm-6{
     float: left;
 }
@@ -728,10 +735,8 @@ div.row.upload{
 /* END ENTREDICHOS MOBILE */
 
 /* special width 360 */
-@media (min-width: 360px){
-.radio-publicidad{
-    height: 20em
-}
+@media (min-width: 450px){
+
 }
 /* end special width 360 */
 /* special width 400 */
@@ -740,6 +745,9 @@ div.row.upload{
     width: 350px;
     -webkit-border-radius: 0;
     border-radius: 0;
+}
+.radio-publicidad{
+    height: 22em
 }
 }
 /* end special width 400 */
@@ -808,7 +816,7 @@ h3.cert-title{
 .servicios-menu div:hover{
     background: #F3F7DB;
 }
-.servicios-menu div:hover img#traduccion-menu{
+div.servicios-menu div:hover img#traduccion-menu{
     content: url("../images/servicios/servicios-lapiz-traduccion-over.png");
 }
 .servicios-menu div:hover img#correccion-menu{
@@ -919,6 +927,12 @@ li.upload .fileuploader{
 }
 /* END PRESUPUESTOS 480 */
 /* CONTACTANOS 480 */
+.contacto-content .fields div.row textarea{
+    width: 97%;
+}
+.contacto-content div.row>div.row.mensaje div{
+    padding:0;
+}
 .contacto-content div.row>div.row.mensaje{
     margin-left: 15px;
     padding-left: 0;
@@ -1254,7 +1268,14 @@ div.row.upload div.ajax-file-upload-container{
     padding: 4em;
 }
 .sumate-content div.col-xs-12.col-750-6.sumate-header{
-    min-height: 78em
+    min-height: 80em
+}
+.sumate-content div.fields>div>div.row {
+    /*padding: 0; */
+}
+.sumate-content div.fields>div.first>div.row div{
+    height: initial;
+    margin-bottom: 0;
 }
 .sumate-content + #footer{
     clear: both;
@@ -1462,6 +1483,9 @@ div.selecciona-content{
 .fields>ul li.row input, .fields>ul li.row select, .fields>ul li.row div {
     width: 60%
 }
+.fields>ul li.row.comentarios div {
+    width: 100%;
+}
 .selecciona-content{
     padding-top: 2em;
 }
@@ -1498,6 +1522,9 @@ div.row.mensaje textarea {
 }
 /* END CONTACTANOS 970 */
 /* SUMATE 970 */
+.sumate-content div.col-xs-12.col-750-6.sumate-header {
+    min-height: 90em;
+}
 .sumate-content div.fields div.row input{
     width: 100%;
 }

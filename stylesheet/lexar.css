@@ -334,6 +334,7 @@ li.active > a {
 }
 .menu-button-open {
   background: url("../images/header/header-ico-cerrar.png") no-repeat;
+  background-size: 30px;
 }
 .menu-button{
   background-position: center;
@@ -670,7 +671,11 @@ ul.nav > li:hover a{
 
 @media screen and (min-width:1170px){}
 
-@media screen and (min-width:1560px){}
+@media screen and (min-width:1560px){
+  .header-ico-idioma{
+    right:175px;
+  }
+}
 
 
 /*special widths*/
@@ -690,4 +695,10 @@ ul.nav > li:hover a{
     clear: both;
     width: 100%;
 }
+}
 /*end special widths*/
+
+body{
+  max-width: 1560px;
+  margin: 0 auto;
+}
