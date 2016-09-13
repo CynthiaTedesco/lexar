@@ -1,5 +1,7 @@
 var alreadyTranslated = false;
 
+var loadImages = function(){}
+
 var selectLetsKnowUsTab = function(){
     $('.conocenos-content').addClass('hidden');
     $('.conocenos-menu div').removeClass('active');
@@ -48,6 +50,7 @@ var selectServicesTab = function(){
             $('.servicios-menu div:nth-child(1)').addClass('active');
             $('.servicios-main-content div:nth-child(1)').removeClass('hidden');
     }
+    $('.servicios-menu div.active .servicios-menu-flecha').attr('src', 'images/servicios/servicios-flecha-on.png');
 }
 
 var selectSpecialityTab = function(){
@@ -332,6 +335,55 @@ $(function() {
     });
 });
 
+//manual image-changing to work with mozilla
+$(function() {
+    if ($(window).width() < 750){
+        $('.conocenos-content .footer-aboutus img').attr('src', 'images/conocenos/acercade-back-filosofia-responsive.jpg');
+    } else {
+        $('.conocenos-content .footer-aboutus img').attr('src', 'images/conocenos/acercade-back-filosofia.jpg');
+    }
+
+    $('.servicios-menu div').mouseover(function() {
+        $(this.children[3]).attr('src', 'images/servicios/servicios-flecha-over.png');
+    });
+
+    $(".servicios-menu div").mouseleave(function() {
+        if ($(this).hasClass('active')){
+            $(this.children[3]).attr('src', 'images/servicios/servicios-flecha-on.png');
+        } else {
+            $(this.children[3]).attr('src', 'images/servicios/servicios-flecha-off.png');
+        }
+    });
+
+    $('.servicios-menu div:nth-child(1)').mouseover(function() {
+        $("#traduccion-menu").attr('src', 'images/servicios/servicios-lapiz-traduccion-over.png');
+    });
+    $(".servicios-menu div:nth-child(1)").mouseleave(function() {
+        $("#traduccion-menu").attr('src', 'images/servicios/servicios-lapiz-traduccion.png');
+    });
+
+    $('.servicios-menu div:nth-child(2)').mouseover(function() {
+        $("#interpretacion-menu").attr('src', 'images/servicios/servicios-lapiz-interp-over.png');
+    });
+    $(".servicios-menu div:nth-child(2)").mouseleave(function() {
+        $("#interpretacion-menu").attr('src', 'images/servicios/servicios-lapiz-interp.png');
+    });
+
+    $('.servicios-menu div:nth-child(3)').mouseover(function() {
+        $("#correccion-menu").attr('src', 'images/servicios/servicios-lapiz-correccion-over.png');
+    });
+    $(".servicios-menu div:nth-child(3)").mouseleave(function() {
+        $("#correccion-menu").attr('src', 'images/servicios/servicios-lapiz-correccion.png');
+    });
+
+    $('.servicios-menu div:nth-child(4)').mouseover(function() {
+        $("#subtitulado-menu").attr('src', 'images/servicios/servicios-lapiz-subtitulado-over.png');
+    });
+    $(".servicios-menu div:nth-child(4)").mouseleave(function() {
+        $("#subtitulado-menu").attr('src', 'images/servicios/servicios-lapiz-subtitulado.png');
+    });
+});
+
 $(function() {
     $(".servicios-menu div").click(function() {
         if (this.className !== "active"){
@@ -339,7 +391,7 @@ $(function() {
             $('.servicios-content').addClass('hidden');
             $('.servicios-menu div').removeClass('active');
             $(this).addClass('active');
-
+            $('.servicios-menu div .servicios-menu-flecha').attr('src', 'images/servicios/servicios-flecha-off.png');
             switch(this.firstElementChild.attributes.key.value){
                 case('servicios-traduccion-menu'):
                     localStorage.setItem("servicesTab", 1);
@@ -358,6 +410,7 @@ $(function() {
                     $('.servicios-content.subtitulado').removeClass('hidden');
                     break;
             }
+            $('.servicios-menu div.active .servicios-menu-flecha').attr('src', 'images/servicios/servicios-flecha-on.png');
         }
     });
 });

@@ -1,3 +1,9 @@
+::selection {
+  background: #B0B0B0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #B0B0B0; /* Gecko Browsers */
+}
 /* HOME MOBILE */
 
 /*slideshow mobile*/
@@ -816,8 +822,8 @@ h3.cert-title{
 .servicios-menu div:hover{
     background: #F3F7DB;
 }
-div.servicios-menu div:hover img#traduccion-menu:before{
-    content: url("../images/servicios/servicios-lapiz-traduccion-over.png");
+.servicios-menu div:hover img#traduccion-menu{
+    content: url('../images/servicios/servicios-lapiz-traduccion-over.png');
 }
 .servicios-menu div:hover img#correccion-menu{
     content: url("../images/servicios/servicios-lapiz-correccion-over.png");
