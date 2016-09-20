@@ -339,3 +339,5 @@ aLangKeys['es']['publicado']="Publicado el";
 aLangKeys['es']['visitas']="visitas";
 
 aLangKeys['es']['abortar']="Abortar";
+aLangKeys['es']['IE-warning']="Usted está accediendo a Lexar mediante Internet Explorer. Algunas secciones pueden no funcionar correctamente.";
+aLangKeys['es']['warning']="¡Atención!";

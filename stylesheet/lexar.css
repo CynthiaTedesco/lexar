@@ -1,3 +1,7 @@
+div.alert-warning a{
+  float: right;
+  font-size: 21px;
+}
 .email-link{
   color:#c0c450;
 }

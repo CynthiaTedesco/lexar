@@ -1,5 +1,9 @@
 var alreadyTranslated = false;
 
+$(function() {
+    
+});
+
 var selectLetsKnowUsTab = function(){
     $('.conocenos-content').addClass('hidden');
     $('.conocenos-menu div').removeClass('active');
