@@ -341,3 +341,4 @@ aLangKeys['en']['visitas']="views";
 aLangKeys['en']['abortar']="Abort";
 aLangKeys['en']['IE-warning']="You are accessing Lexar by using Internet Explorer. Some sections may not work properly.";
 aLangKeys['en']['warning']="Warning!";
+aLangKeys['en']['canal']="To see more, click <a href='https://www.youtube.com/channel/UC0k7cSxwAvvKRUrwhC3bjQA' target='_blank'>here</a>";

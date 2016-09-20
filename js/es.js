@@ -94,7 +94,7 @@ aLangKeys['es']['servicios-interpretacion-footer']='Lexar no solo traduce o inte
 aLangKeys['es']['servicios-correccion-titulo']='Corrección';
 aLangKeys['es']['servicios-correccion-menu']='Corrección';
 aLangKeys['es']['servicios-correccion-1']='En Lexar, creemos que los idiomas son una de las expresiones más valiosas de la cultura de los países, por eso debemos cuidarlos y utilizarlos correctamente. Muchas veces, no conocemos todas las normas que tiene una determinada lengua y esto nos lleva a cometer errores al escribirlo o al hablarlo que quisiéramos evitar.';
-aLangKeys['es']['servicios-correccion-2']='Lexar considera que un documento bien escrito refleja la seriedad, la responsabilidad, la dedicación y el profesionalismo de quien lo redactó, pero, muchas veces, esa persona no tiene tiempo suficiente para corregir el documento o está tan concentrado en el aspecto técnico del texto que se filtran algunos errores del lenguaje. ';
+aLangKeys['es']['servicios-correccion-2']='Lexar considera que un documento bien escrito refleja la seriedad, la responsabilidad, la dedicación y el profesionalismo de quien lo redactó, pero, muchas veces, esa persona no tiene tiempo suficiente para corregir el documento o está tan concentrada en el aspecto técnico del texto que se filtran algunos errores del lenguaje. ';
 aLangKeys['es']['servicios-correccion-3']='Por ello, Lexar ofrece una gama de servicios de corrección para que los documentos sean presentados sin errores de ningún tipo. Lexar se compromete a ser el guardián del buen uso de los idiomas en tus textos.';
 aLangKeys['es']['servicios-correccion-4']='Los siguientes son los distintos servicios de corrección que te ofrecemos:';
 aLangKeys['es']['servicios-correccion-item-1']='Corrección de estilo.';
@@ -341,3 +341,4 @@ aLangKeys['es']['visitas']="visitas";
 aLangKeys['es']['abortar']="Abortar";
 aLangKeys['es']['IE-warning']="Usted está accediendo a Lexar mediante Internet Explorer. Algunas secciones pueden no funcionar correctamente.";
 aLangKeys['es']['warning']="¡Atención!";
+aLangKeys['es']['canal']="Para ver más programas, hacé clic <a href='https://www.youtube.com/channel/UC0k7cSxwAvvKRUrwhC3bjQA' target='_blank'>aquí</a>";

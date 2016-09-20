@@ -26,6 +26,8 @@ function executeVideoRequest(ids) {
 						}]));
     		});
     	});
+        $('div .youtube-container')
+            .append('<div class="see-more"><span class="tr-as-html" key="canal"></span></div>');
     	resetVideoHeight();
     });
 
