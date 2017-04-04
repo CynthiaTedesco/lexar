@@ -40,7 +40,7 @@ aLangKeys['en']['trayectoria-2']='When I decided to create Lexar, I looked for e
 aLangKeys['en']['trayectoria-3']='Currently, we have more than ten years of experience in translation, interpretation, revision, subtitling and subbing. Besides, we focused and trained in very specific market areas because in Lexar we believe that specialization is critical to provide a customized high-quality service.';
 aLangKeys['en']['trayectoria-4']='Our areas of specialization are: legal sciences, economics and finance, political science and political economy, dried fruits and agriculture, real estate and property sector, information technology (IT) and new technologies, and human resources. In any case, we work with excellent colleagues from other areas of specialization and other languages (Italian, Portuguese, French, German, Chinese, Japanese, Russian, and Hebrew, among others) that help us when a client requests a service that is not within our area of competence.';
 aLangKeys['en']['trayectoria-5']='Moreover, in Lexar we believe in continuous improvement, therefore we participate in courses, seminars, debates, conferences and meetings that contribute to our constant training and to be updated and informed.';
-aLangKeys['en']['trayectoria-6']='Besides, we contribute with the professional community we belong to (one of our main values) because we believe that together we can make people respect and know our work, and in that way we will be able to achieve the level of prestige we deserve. Consequently, I work as an Expert for the Judiciary and I am a member of the Association of Certified Translators of the City of Buenos Aires, where I actively participate in the Culture Committee (I am the Coordinator) and in the Spanish Committee (I am the presenter of its broadcast <i>“Entredichos”</i>).';
+aLangKeys['en']['trayectoria-6']='Besides, we contribute with the professional community we belong to (one of our main values) because we believe that together we can make people respect and know our work, and in that way we will be able to achieve the level of prestige we deserve. Consequently, I work as an Expert for the Judiciary and I am a member of the Association of Certified Translators of the City of Buenos Aires.';
 aLangKeys['en']['trayectoria-7']='Lexar helped countless companies, national and international bodies, and individuals to find the linguistic solutions for their specific needs that allowed them to finish their projects or to be successful.';
 aLangKeys['en']['trayectoria-8']='Lexar is the perfect ally for our clients to fulfill their dreams or to complete lifelong projects. We are here so that linguistic barriers do not pose a problem for you; we were here to create the communication bridges that you need to make all your dreams come true.';
 
@@ -333,6 +333,8 @@ aLangKeys['en']['radio-social']='/EntredichosOK';
 
 aLangKeys['en']['message-notification']="Your message has been sent.";
 aLangKeys['en']['message-notification-failed']="Your message has not been sent.";
+aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
+aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
 aLangKeys['en']['message-notification-security']="The file you are trying to send is potentially dangerous.";
 aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";
 aLangKeys['en']['publicado']="Published at";
