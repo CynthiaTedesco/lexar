@@ -1,2 +1,5 @@
-vendor/
-.env
+*.env
+*.dev
+.idea/*
+images/footer/thumbs.db
+.DS_Store
