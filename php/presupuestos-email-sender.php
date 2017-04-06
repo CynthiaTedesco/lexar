@@ -10,7 +10,7 @@ $mail->SMTPAuth = true; // Enable SMTP authentication
 $mail->Username = 'lexartd@gmail.com'; // SMTP username
 $mail->Password = 'lexarraxel'; // SMTP password
 $mail->SMTPDebug = 0; // debugging: 0 = nothing, 1 = errors and messages, 2 = messages only
-$mail->SMTPort = 465; // or 587
+$mail->SMTPort = 587; // 465 or 587
 $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 
 $mail->CharSet = 'UTF-8';
