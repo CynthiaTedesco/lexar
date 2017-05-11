@@ -18,8 +18,6 @@ $mail->From = 'lexartd@gmail.com';
 $mail->FromName = 'Lexar Web';
 $mail->AddAddress('valecardozo@lexar.com.ar', 'Lexar'); // Name is optional
 $mail->IsHTML(true); // Set email format to HTML
-//$mail->AddCC('cc@example.com');
-//$mail->AddBCC('bcc@example.com');
 
 $mail->WordWrap = 90; // Set word wrap to 90 characters
 

@@ -87,7 +87,7 @@ aLangKeys['en']['servicios-interpretacion-simultanea-3']='In this type of interp
 aLangKeys['en']['servicios-interpretacion-simultanea-4']='Lexar recommends using simultaneous interpreting in conferences, seminars and presentations with a large audience, as well as in television broadcasts, among others.';
 aLangKeys['en']['servicios-interpretacion-acompaniamiento-titulo']='Interpreting for businessmen';
 aLangKeys['en']['servicios-interpretacion-acompaniamiento-1']='This type of interpreting is a service for businessmen that need linguistic help in business trips, factory or processing plant visits, and work meetings, among others.';
-aLangKeys['en']['servicios-interpretacion-acompaniamiento-2']='Lexar has vast experience in this type of interpreting that is essential to carry out negotiations with good results. We offer this service in Argentina, in neighboring countries (Uruguay, Chile, Paraguay, Brazil, Bolivia and Peru) and in the rest of the World.';
+aLangKeys['en']['servicios-interpretacion-acompaniamiento-2']='Lexar has vast experience in this type of interpreting that is essential to carry out negotiations with good results. We offer this service in Argentina, in neighboring countries (Uruguay, Chile, Paraguay, Brazil, Bolivia and Peru) and in the rest of the world.';
 aLangKeys['en']['servicios-interpretacion-acompaniamiento-3']='Do not risk your business, ask for Lexar’s help.';
 aLangKeys['en']['servicios-interpretacion-footer']='Lexar not only translates or interprets words, but also transmits the real meaning of those works and the whole culture they have.';
 
@@ -327,14 +327,12 @@ aLangKeys['en']['dia']='Tuesday';
 aLangKeys['en']['hora']='7:00PM-8:00PM';
 aLangKeys['en']['que-radio']='on <b>FM Radio Palermo 93.9 </b>';
 aLangKeys['en']['tambien-en']='Also on';
-aLangKeys['en']['conducen']='presented by:';
+aLangKeys['en']['conducen']='Presented by:';
 aLangKeys['en']['quienes-conducen']='Valeria Cardozo, Virginia Rubiolo and Damián Santilli';
 aLangKeys['en']['radio-social']='/EntredichosOK';
 
 aLangKeys['en']['message-notification']="Your message has been sent.";
 aLangKeys['en']['message-notification-failed']="Your message has not been sent.";
-aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
-aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
 aLangKeys['en']['message-notification-security']="The file you are trying to send is potentially dangerous.";
 aLangKeys['en']['tooltip']="A certified translation is the one that must be presented before judicial or administrative bodies, entities or organizations and must be legalized by the CTPCBA.";
 aLangKeys['en']['publicado']="Published at";

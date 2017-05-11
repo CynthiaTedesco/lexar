@@ -461,10 +461,69 @@ $(function() {
 
 var hasError = function(e){
     return e.indexOf("Error") > 0 ||
+           e.indexOf("ERROR") > 0 ||
            e.indexOf("error") > 0 || 
            e.indexOf("errno") > 0 || 
-           e.indexOf("ndefined") > 0
-}
+           e.indexOf("ndefined") > 0 ||
+           e.indexOf("ould not") > 0;
+};
+
+var getLine = function(e){
+    var lineIndexInit = e.indexOf("on line <b>");
+    if(lineIndexInit > -1){
+        var firstCut = e.substr(lineIndexInit+11,e.lenght);
+        var lineIndexEnd = firstCut.indexOf("</b>");
+        return '-' + firstCut.substr(0, lineIndexEnd);
+    } else {
+        return '';
+    }
+};
+
+var getErrorCode= function(e){
+
+    if(e.indexOf("Conection not OK") > -1){
+        return '[001]';
+    }
+
+    if(e.indexOf("Fatal error") > -1){
+        if (e.indexOf("Class") > -1 && e.indexOf("not found") > -1){
+            return '[101' + getLine(e) + "]";
+        }
+        if (e.indexOf("Call to undefined method") > -1){
+            return '[102' + getLine(e) + "]";
+        }
+    }
+
+    if(e.indexOf("BadCredentials") > -1){
+        return '[202]';
+    }
+
+    if(e.indexOf("No such host is known") > -1){
+        return '[203]';
+    }
+
+    if(e.indexOf("Mailer Error: Could not instantiate mail function") > -1){
+        return '[204]';
+    }
+
+    if(e.indexOf("Mailer Error: You must provide at least one recipient email address") > -1){
+        return '[300]';
+    }
+
+    if(e.indexOf("WantAuthError") > -1){
+        return '[205]';
+    }
+
+    if(e.indexOf("BlockedMessage") > -1){
+        return '[208]';
+    }
+
+    if(e.indexOf("Failed to connect to server") > -1){
+        return '[299]';
+    }
+
+    return '[0000]';
+};
 
 var clearQuotesFields = function(){
     $('.presupuestos-content.selecciona input, .presupuestos-content.selecciona textarea').val('');

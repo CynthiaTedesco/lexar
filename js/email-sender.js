@@ -163,8 +163,10 @@ $(function() {
 				clearQuotesFields();
 				if (hasError(e)){
 					$("div.error-message").removeClass('hidden');
-					if (e.indexOf("security issue")){
+					$("div.error-message").append('<span><i>'+ getErrorCode(e) +'</i></span>');
+					if (e.indexOf("security issue")>-1){
 						$("div.error-message2").removeClass('hidden');
+						$("div.error-message2").append('<span><i>[800]</i></span>');
 					}
 				} else {
 					$("div.success-message").removeClass('hidden');	
@@ -211,6 +213,7 @@ $(function() {
 				clearContactFields();
 				if (hasError(e)){
 					$("div.error-message-contactanos").removeClass('hidden');	
+					$("div.error-message-contactanos").append('<span><i>'+ getErrorCode(e) +'</i></span>');
 				} else {
 					$("div.success-message-contactanos").removeClass('hidden');	
 				}
@@ -258,9 +261,11 @@ $(function() {
 				$("button.send-button").button('reset');
 				clearTeamFields();
 				if (hasError(e)){
-					$("div.error-message-sumate").removeClass('hidden');	
-					if (e.indexOf("security issue")){
+					$("div.error-message-sumate").removeClass('hidden');
+					$("div.error-message-sumate").append('<span><i>'+ getErrorCode(e) +'</i></span>');
+					if (e.indexOf("security issue")>-1){
 						$("div.error-message2").removeClass('hidden');
+						$("div.error-message2").append('<span><i>[800]</i></span>');
 					}
 				} else {
 					$("div.success-message-sumate").removeClass('hidden');	
